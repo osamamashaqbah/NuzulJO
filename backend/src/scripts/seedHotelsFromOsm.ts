@@ -36,8 +36,9 @@ function nearestCity(lat: number, lon: number) {
 }
 
 // SEED (not from OSM): placeholder images via picsum.photos, deterministic per hotel/room id, free & no API key.
+// osmId is like "way/1225740619" — the literal "/" would break picsum's /seed/{value}/{w}/{h} path, so sanitize it.
 function placeholderImage(seed: string, w = 800, h = 600) {
-  return `https://picsum.photos/seed/${seed}/${w}/${h}`;
+  return `https://picsum.photos/seed/${seed.replace(/\//g, "-")}/${w}/${h}`;
 }
 
 async function main() {
