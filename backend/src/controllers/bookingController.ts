@@ -7,7 +7,7 @@ import { streamReceiptPdf } from "../utils/receiptPdf";
 
 const ACTIVE_STATUSES = ["PENDING", "CONFIRMED"] as const;
 
-const createBookingSchema = z
+export const createBookingSchema = z
   .object({
     roomId: z.string().uuid(),
     checkIn: z.coerce.date(),
@@ -17,7 +17,7 @@ const createBookingSchema = z
   .refine((d) => d.checkOut > d.checkIn, { message: "checkOut must be after checkIn", path: ["checkOut"] })
   .refine((d) => d.checkIn >= new Date(new Date().toDateString()), { message: "checkIn cannot be in the past", path: ["checkIn"] });
 
-async function isRoomAvailable(roomId: string, checkIn: Date, checkOut: Date, excludeBookingId?: string) {
+export async function isRoomAvailable(roomId: string, checkIn: Date, checkOut: Date, excludeBookingId?: string) {
   const overlapping = await prisma.booking.findFirst({
     where: {
       roomId,

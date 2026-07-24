@@ -9,7 +9,7 @@ import type { AuthedRequest } from "../middleware/auth";
 
 const REFRESH_TOKEN_TTL_MS = 7 * 24 * 60 * 60 * 1000; // ponytail: fixed 7d, add duration parsing if JWT_REFRESH_EXPIRES_IN needs to vary
 
-const registerSchema = z.object({
+export const registerSchema = z.object({
   name: z.string().min(2).max(100),
   email: z.string().email(),
   password: z.string().min(8).max(72),

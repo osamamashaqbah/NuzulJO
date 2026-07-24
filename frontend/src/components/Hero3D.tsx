@@ -9,7 +9,7 @@ const staticFallback = (
 );
 
 // Weak/mobile devices (or reduced-motion users) get a static gradient instead of the WebGL canvas.
-function shouldUse3D() {
+export function shouldUse3D() {
   if (typeof window === "undefined") return false;
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
   if (navigator.hardwareConcurrency && navigator.hardwareConcurrency < 4) return false;
