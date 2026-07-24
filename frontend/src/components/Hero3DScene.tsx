@@ -1,40 +1,85 @@
 import { Suspense, useRef, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Float, ContactShadows, RoundedBox } from "@react-three/drei";
-import type { Mesh } from "three";
+import { Float, ContactShadows, Sparkles } from "@react-three/drei";
+import type { Group } from "three";
 
-// Stylized low-poly "hotel tower" built from primitives — no external model assets needed,
-// keeps this free/open-source and avoids a large GLB download on first paint.
-function HotelTower({ mouse }: { mouse: React.RefObject<{ x: number; y: number }> }) {
-  const group = useRef<Mesh>(null);
+// A stylized Petra-Treasury-inspired arch monument floating over a Dead-Sea-blue reflective
+// disc — real Jordan landmarks instead of a generic building block, built entirely from
+// primitives so it stays free/open-source with no external model download.
+function PetraMonument({ mouse }: { mouse: React.RefObject<{ x: number; y: number }> }) {
+  const group = useRef<Group>(null);
 
   useFrame((_, delta) => {
     if (!group.current) return;
-    // gentle idle auto-rotation plus a mouse-driven parallax tilt
-    group.current.rotation.y += delta * 0.15;
-    const targetX = (mouse.current?.y ?? 0) * 0.15;
-    const targetZ = (mouse.current?.x ?? 0) * -0.15;
+    group.current.rotation.y += delta * 0.18;
+    const targetX = (mouse.current?.y ?? 0) * 0.12;
+    const targetZ = (mouse.current?.x ?? 0) * -0.12;
     group.current.rotation.x += (targetX - group.current.rotation.x) * 0.05;
     group.current.rotation.z += (targetZ - group.current.rotation.z) * 0.05;
   });
 
-  const floors = 7;
+  const columnPositions: [number, number, number][] = [
+    [-1.15, 0, 0],
+    [-0.62, 0, 0],
+    [0.62, 0, 0],
+    [1.15, 0, 0],
+  ];
+
   return (
-    <group ref={group as never} position={[0, -0.5, 0]}>
+    <group ref={group} position={[0, -0.3, 0]}>
       {/* base podium */}
-      <RoundedBox args={[3.4, 0.4, 2.4]} radius={0.05} position={[0, -0.2, 0]}>
-        <meshStandardMaterial color="#3a2a1c" metalness={0.3} roughness={0.6} />
-      </RoundedBox>
-      {Array.from({ length: floors }).map((_, i) => (
-        <RoundedBox key={i} args={[2.6, 0.55, 1.8]} radius={0.04} position={[0, i * 0.62, 0]}>
-          <meshStandardMaterial color={i % 2 === 0 ? "#caa15f" : "#b98d47"} metalness={0.55} roughness={0.35} />
-        </RoundedBox>
+      <mesh position={[0, -1.05, 0]} castShadow receiveShadow>
+        <boxGeometry args={[3.2, 0.3, 1.4]} />
+        <meshStandardMaterial color="#caa063" metalness={0.55} roughness={0.4} />
+      </mesh>
+
+      {/* columns */}
+      {columnPositions.map((pos, i) => (
+        <mesh key={i} position={pos} castShadow>
+          <cylinderGeometry args={[0.11, 0.13, 1.9, 16]} />
+          <meshStandardMaterial color="#caa063" metalness={0.55} roughness={0.4} />
+        </mesh>
       ))}
-      {/* rooftop */}
-      <RoundedBox args={[1.2, 0.25, 0.9]} radius={0.03} position={[0, floors * 0.62 + 0.1, 0]}>
-        <meshStandardMaterial color="#0b3b4f" metalness={0.7} roughness={0.2} />
-      </RoundedBox>
+
+      {/* central archway (half torus) */}
+      <mesh position={[0, 0.55, 0]} rotation={[0, 0, 0]} castShadow>
+        <torusGeometry args={[0.62, 0.16, 16, 32, Math.PI]} />
+        <meshStandardMaterial color="#e8b968" metalness={0.85} roughness={0.22} />
+      </mesh>
+      <mesh position={[-0.62, -0.35, 0]} castShadow>
+        <boxGeometry args={[0.24, 1.0, 0.3]} />
+        <meshStandardMaterial color="#e8b968" metalness={0.85} roughness={0.22} />
+      </mesh>
+      <mesh position={[0.62, -0.35, 0]} castShadow>
+        <boxGeometry args={[0.24, 1.0, 0.3]} />
+        <meshStandardMaterial color="#e8b968" metalness={0.85} roughness={0.22} />
+      </mesh>
+
+      {/* architrave (lintel band) */}
+      <mesh position={[0, 1.02, 0]} castShadow>
+        <boxGeometry args={[3.2, 0.22, 0.5]} />
+        <meshStandardMaterial color="#caa063" metalness={0.55} roughness={0.4} />
+      </mesh>
+
+      {/* pediment (triangular roof) */}
+      <mesh position={[0, 1.55, 0]} rotation={[0, Math.PI / 4, 0]} castShadow>
+        <coneGeometry args={[1.65, 0.75, 4]} />
+        <meshStandardMaterial color="#caa063" metalness={0.55} roughness={0.4} />
+      </mesh>
+      <mesh position={[0, 1.55, 0]}>
+        <sphereGeometry args={[0.1, 16, 16]} />
+        <meshStandardMaterial color="#e8b968" metalness={0.85} roughness={0.22} />
+      </mesh>
     </group>
+  );
+}
+
+function DeadSeaDisc() {
+  return (
+    <mesh position={[0, -1.35, 0]} rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+      <circleGeometry args={[3.4, 64]} />
+      <meshStandardMaterial color="#0b3b52" metalness={0.9} roughness={0.12} />
+    </mesh>
   );
 }
 
@@ -52,18 +97,20 @@ function Scene() {
 
   return (
     <>
-      {/* manual 3-point rig instead of a fetched HDRI: no network dependency, still gives real depth via
-          key + fill + rim lights against the metalness/roughness materials below */}
-      <ambientLight intensity={0.45} />
-      <directionalLight position={[4, 6, 3]} intensity={1.7} castShadow shadow-mapSize={[1024, 1024]} />
-      <directionalLight position={[-4, 2, -3]} intensity={0.35} color="#4fb3e8" />
-      <pointLight position={[0, 3, -4]} intensity={0.4} color="#d9a441" />
+      {/* warm key light (evokes desert sun on sandstone) + cool Dead-Sea-blue fill + soft gold rim */}
+      <ambientLight intensity={0.4} />
+      <directionalLight position={[4, 6, 3]} intensity={1.9} color="#ffe4b0" castShadow shadow-mapSize={[1024, 1024]} />
+      <directionalLight position={[-4, 2, -3]} intensity={0.4} color="#4fb3e8" />
+      <pointLight position={[0, 2.5, -4]} intensity={0.5} color="#f5c25a" />
       <Suspense fallback={null}>
-        <Float speed={1.2} rotationIntensity={0} floatIntensity={0.6}>
-          <HotelTower mouse={mouse} />
+        <Float speed={1.1} rotationIntensity={0} floatIntensity={0.5}>
+          <PetraMonument mouse={mouse} />
         </Float>
-        <ContactShadows position={[0, -0.75, 0]} opacity={0.5} scale={8} blur={2.5} far={2} />
+        <DeadSeaDisc />
+        <Sparkles count={50} scale={[4, 2.5, 4]} size={2.2} speed={0.25} color="#f5c25a" opacity={0.6} />
+        <ContactShadows position={[0, -1.34, 0]} opacity={0.4} scale={8} blur={2.5} far={2} />
       </Suspense>
+      <fog attach="fog" args={["#171717", 6, 14]} />
     </>
   );
 }
@@ -71,7 +118,7 @@ function Scene() {
 export default function Hero3DScene() {
   return (
     <div className="h-72 w-full overflow-hidden rounded-2xl sm:h-96">
-      <Canvas camera={{ position: [3.2, 2.4, 4.2], fov: 40 }} shadows dpr={[1, 1.5]}>
+      <Canvas camera={{ position: [3.4, 1.6, 4.6], fov: 38 }} shadows dpr={[1, 1.5]}>
         <Scene />
       </Canvas>
     </div>
