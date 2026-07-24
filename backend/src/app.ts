@@ -5,6 +5,7 @@ import path from "node:path";
 import { env } from "./config/env";
 import { authRoutes } from "./routes/authRoutes";
 import { hotelRoutes } from "./routes/hotelRoutes";
+import { roomRoutes } from "./routes/roomRoutes";
 
 export const app = express();
 
@@ -19,5 +20,6 @@ app.get("/api/health", (_req, res) => {
 
 app.use("/api/auth", authRoutes);
 app.use("/api/hotels", hotelRoutes);
+app.use("/api/rooms", roomRoutes);
 
 export default app;
