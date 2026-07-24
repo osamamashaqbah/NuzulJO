@@ -22,10 +22,12 @@ const loginSchema = z.object({
 });
 
 const REFRESH_COOKIE = "refresh_token";
+// production: frontend (vercel.app) and backend (onrender.com) are different sites, so the
+// refresh cookie needs sameSite:"none" (which requires secure:true) to be sent cross-origin at all.
 const cookieOpts = {
   httpOnly: true,
   secure: env.nodeEnv === "production",
-  sameSite: "lax" as const,
+  sameSite: (env.nodeEnv === "production" ? "none" : "lax") as "none" | "lax",
   path: "/api/auth",
   maxAge: REFRESH_TOKEN_TTL_MS,
 };

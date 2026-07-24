@@ -17,7 +17,7 @@ export const app = express();
 // loads uploaded hotel/room images via <img src> from /uploads, which helmet's default
 // same-origin policy would otherwise block.
 app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }));
-app.use(cors({ origin: env.corsOrigin, credentials: true }));
+app.use(cors({ origin: env.corsOrigins, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use("/uploads", express.static(path.join(__dirname, "../uploads")));

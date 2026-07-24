@@ -10,7 +10,8 @@ export const env = {
   port: Number(process.env.PORT ?? 4000),
   nodeEnv: process.env.NODE_ENV ?? "development",
   databaseUrl: required("DATABASE_URL"),
-  corsOrigin: process.env.CORS_ORIGIN ?? "http://localhost:5173",
+  // comma-separated list so both the prod Vercel domain and local dev can be allowed at once
+  corsOrigins: (process.env.CORS_ORIGIN ?? "http://localhost:5173").split(",").map((s) => s.trim()),
   jwt: {
     accessSecret: required("JWT_ACCESS_SECRET"),
     refreshSecret: required("JWT_REFRESH_SECRET"),
