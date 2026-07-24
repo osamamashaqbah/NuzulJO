@@ -9,6 +9,7 @@ import {
   deleteRoom,
   uploadRoomImages,
 } from "../controllers/roomController";
+import { checkAvailability } from "../controllers/bookingController";
 
 // Mounted at /api/hotels/:hotelId/rooms (mergeParams to read hotelId).
 export const hotelRoomRoutes = Router({ mergeParams: true });
@@ -21,3 +22,4 @@ roomRoutes.get("/:id", getRoom);
 roomRoutes.patch("/:id", requireAuth, requireRole("HOTEL_OWNER"), updateRoom);
 roomRoutes.delete("/:id", requireAuth, requireRole("HOTEL_OWNER"), deleteRoom);
 roomRoutes.post("/:id/images", requireAuth, requireRole("HOTEL_OWNER"), imageUpload.array("images", 5), uploadRoomImages);
+roomRoutes.get("/:id/availability", checkAvailability);
