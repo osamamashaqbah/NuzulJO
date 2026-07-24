@@ -22,9 +22,42 @@ const hotelInclude = {
   amenities: { include: { amenity: true } },
 };
 
+const searchSchema = z.object({
+  q: z.string().optional(), // matches hotel name or city name
+  city: z.string().optional(), // city name, exact
+  minPrice: z.coerce.number().nonnegative().optional(),
+  maxPrice: z.coerce.number().positive().optional(),
+  minRating: z.coerce.number().int().min(1).max(5).optional(), // filters on Hotel.starRating (seed data; swap for review avg once Reviews ship)
+  roomType: z.enum(["SINGLE", "DOUBLE", "SUITE", "FAMILY"]).optional(),
+  capacity: z.coerce.number().int().positive().optional(),
+  amenities: z.string().optional(), // comma-separated amenity keys, hotel must have all
+});
+
 export async function listHotels(req: AuthedRequest, res: Response) {
+  const parsed = searchSchema.safeParse(req.query);
+  if (!parsed.success) return res.status(400).json({ error: parsed.error.flatten() });
+  const { q, city, minPrice, maxPrice, minRating, roomType, capacity, amenities } = parsed.data;
+
+  const roomFilter = {
+    ...(roomType ? { type: roomType } : {}),
+    ...(capacity ? { capacity: { gte: capacity } } : {}),
+    ...(minPrice != null || maxPrice != null
+      ? { pricePerNight: { ...(minPrice != null ? { gte: minPrice } : {}), ...(maxPrice != null ? { lte: maxPrice } : {}) } }
+      : {}),
+  };
+  const hasRoomFilter = Object.keys(roomFilter).length > 0;
+
+  const amenityKeys = amenities ? amenities.split(",").map((s) => s.trim()).filter(Boolean) : [];
+
   const hotels = await prisma.hotel.findMany({
-    where: { isActive: true },
+    where: {
+      isActive: true,
+      ...(q ? { OR: [{ name: { contains: q, mode: "insensitive" } }, { city: { name: { contains: q, mode: "insensitive" } } }] } : {}),
+      ...(city ? { city: { name: { equals: city, mode: "insensitive" } } } : {}),
+      ...(minRating ? { starRating: { gte: minRating } } : {}),
+      ...(hasRoomFilter ? { rooms: { some: roomFilter } } : {}),
+      ...(amenityKeys.length ? { AND: amenityKeys.map((key) => ({ amenities: { some: { amenity: { key } } } })) } : {}),
+    },
     include: hotelInclude,
     orderBy: { createdAt: "desc" },
   });
