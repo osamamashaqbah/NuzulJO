@@ -40,7 +40,7 @@ export interface Hotel {
   isActive: boolean;
   city?: City | null;
   images: HotelImage[];
-  amenities: { amenity: Amenity }[];
+  amenities?: { amenity: Amenity }[]; // omitted from list endpoints (search grid, owner list) — only getHotel includes it
   rooms?: Room[];
 }
 

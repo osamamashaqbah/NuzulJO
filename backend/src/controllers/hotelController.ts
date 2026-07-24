@@ -22,6 +22,18 @@ const hotelInclude = {
   amenities: { include: { amenity: true } },
 };
 
+// List views (search grid, owner's hotel list) only ever render name/rating/city/cover image —
+// selecting just that instead of the full hotelInclude cut the /api/hotels payload from ~400KB
+// to a fraction of that for 300+ hotels, which matters on Render's free tier (slow cold DB conns).
+const hotelListSelect = {
+  id: true,
+  name: true,
+  starRating: true,
+  isActive: true,
+  city: { select: { id: true, name: true } },
+  images: { orderBy: { position: "asc" as const }, take: 1 },
+};
+
 const searchSchema = z.object({
   q: z.string().optional(), // matches hotel name or city name
   city: z.string().optional(), // city name, exact
@@ -58,7 +70,7 @@ export async function listHotels(req: AuthedRequest, res: Response) {
       ...(hasRoomFilter ? { rooms: { some: roomFilter } } : {}),
       ...(amenityKeys.length ? { AND: amenityKeys.map((key) => ({ amenities: { some: { amenity: { key } } } })) } : {}),
     },
-    include: hotelInclude,
+    select: hotelListSelect,
     orderBy: { createdAt: "desc" },
   });
   res.json(hotels);
@@ -76,7 +88,7 @@ export async function getHotel(req: AuthedRequest, res: Response) {
 export async function listMyHotels(req: AuthedRequest, res: Response) {
   const hotels = await prisma.hotel.findMany({
     where: { ownerId: req.user!.userId },
-    include: hotelInclude,
+    select: hotelListSelect,
     orderBy: { createdAt: "desc" },
   });
   res.json(hotels);

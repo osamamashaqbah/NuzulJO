@@ -67,9 +67,9 @@ export function HotelDetailPage() {
 
       <p className="mt-6 max-w-3xl text-neutral-300">{hotel.description}</p>
 
-      {hotel.amenities.length > 0 && (
+      {(hotel.amenities?.length ?? 0) > 0 && (
         <div className="mt-4 flex flex-wrap gap-2">
-          {hotel.amenities.map((a) => (
+          {hotel.amenities!.map((a) => (
             <span key={a.amenity.id} className="rounded-full border border-white/10 px-3 py-1 text-xs text-neutral-300">
               {a.amenity.label}
             </span>
