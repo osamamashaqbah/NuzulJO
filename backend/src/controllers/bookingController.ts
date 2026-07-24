@@ -4,6 +4,7 @@ import { prisma } from "../config/prisma";
 import type { AuthedRequest } from "../middleware/auth";
 import { sendMail } from "../utils/mailer";
 import { streamReceiptPdf } from "../utils/receiptPdf";
+import { escapeHtml } from "../utils/escapeHtml";
 
 const ACTIVE_STATUSES = ["PENDING", "CONFIRMED"] as const;
 
@@ -72,7 +73,7 @@ export async function createBooking(req: AuthedRequest, res: Response) {
   await sendMail(
     booking.user.email,
     "NuzulJO — Booking received",
-    `<p>Hi ${booking.user.name},</p><p>Your booking at <b>${booking.hotel.name}</b> (${nights} night(s)) is pending confirmation by the hotel.</p>`,
+    `<p>Hi ${escapeHtml(booking.user.name)},</p><p>Your booking at <b>${escapeHtml(booking.hotel.name)}</b> (${nights} night(s)) is pending confirmation by the hotel.</p>`,
   );
 
   res.status(201).json(booking);
@@ -125,7 +126,7 @@ export async function updateBookingStatus(req: AuthedRequest, res: Response) {
     await sendMail(
       booking.user.email,
       `NuzulJO — Booking ${parsed.data.status.toLowerCase()}`,
-      `<p>Hi ${booking.user.name},</p><p>Your booking at <b>${booking.hotel.name}</b> was ${parsed.data.status.toLowerCase()}.</p>`,
+      `<p>Hi ${escapeHtml(booking.user.name)},</p><p>Your booking at <b>${escapeHtml(booking.hotel.name)}</b> was ${parsed.data.status.toLowerCase()}.</p>`,
     );
   }
 

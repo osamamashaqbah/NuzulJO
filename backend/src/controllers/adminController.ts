@@ -21,6 +21,7 @@ export async function updateUserRole(req: AuthedRequest, res: Response) {
     data: { role: parsed.data.role },
     select: userSelect,
   });
+  console.warn(`[security] admin=${req.user!.userId} changed role of user=${user.id} to ${user.role}`);
   res.json(user);
 }
 

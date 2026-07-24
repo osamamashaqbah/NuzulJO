@@ -12,7 +12,7 @@ export function signAccessToken(payload: AccessTokenPayload): string {
 }
 
 export function verifyAccessToken(token: string): AccessTokenPayload {
-  return jwt.verify(token, env.jwt.accessSecret) as AccessTokenPayload;
+  return jwt.verify(token, env.jwt.accessSecret, { algorithms: ["HS256"] }) as AccessTokenPayload;
 }
 
 export function signRefreshToken(jti: string): string {
@@ -20,5 +20,5 @@ export function signRefreshToken(jti: string): string {
 }
 
 export function verifyRefreshToken(token: string): { jti: string } {
-  return jwt.verify(token, env.jwt.refreshSecret) as { jti: string };
+  return jwt.verify(token, env.jwt.refreshSecret, { algorithms: ["HS256"] }) as { jti: string };
 }

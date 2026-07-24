@@ -62,6 +62,7 @@ export async function login(req: Request, res: Response) {
 
   const user = await prisma.user.findUnique({ where: { email } });
   if (!user || !(await bcrypt.compare(password, user.passwordHash))) {
+    console.warn(`[security] failed login attempt for email=${email}`);
     return res.status(401).json({ error: "Invalid email or password" });
   }
 
