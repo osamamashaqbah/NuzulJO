@@ -12,3 +12,4 @@ coverage/
 uploads/
 prisma/*.db
 .turbo/
+graphify-out/

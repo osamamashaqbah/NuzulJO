@@ -120,11 +120,26 @@ export function HotelDetailPage() {
           <div className="mt-3 flex flex-wrap items-end gap-3">
             <label className="text-sm text-neutral-400">
               Check-in
-              <input type="date" value={checkIn} onChange={(e) => setCheckIn(e.target.value)} className="mt-1 block rounded-lg border border-white/10 bg-neutral-900 px-2 py-1 text-neutral-100" />
+              <input
+                type="date"
+                value={checkIn}
+                min={new Date().toISOString().slice(0, 10)}
+                onChange={(e) => {
+                  setCheckIn(e.target.value);
+                  if (checkOut && checkOut <= e.target.value) setCheckOut("");
+                }}
+                className="mt-1 block rounded-lg border border-white/10 bg-neutral-900 px-2 py-1 text-neutral-100"
+              />
             </label>
             <label className="text-sm text-neutral-400">
               Check-out
-              <input type="date" value={checkOut} onChange={(e) => setCheckOut(e.target.value)} className="mt-1 block rounded-lg border border-white/10 bg-neutral-900 px-2 py-1 text-neutral-100" />
+              <input
+                type="date"
+                value={checkOut}
+                min={checkIn || new Date().toISOString().slice(0, 10)}
+                onChange={(e) => setCheckOut(e.target.value)}
+                className="mt-1 block rounded-lg border border-white/10 bg-neutral-900 px-2 py-1 text-neutral-100"
+              />
             </label>
             <label className="text-sm text-neutral-400">
               Guests

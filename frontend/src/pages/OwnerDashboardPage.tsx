@@ -40,6 +40,8 @@ export function OwnerDashboardPage() {
           value={newHotelName}
           onChange={(e) => setNewHotelName(e.target.value)}
           placeholder="New hotel name"
+          required
+          minLength={2}
           className="flex-1 rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100"
         />
         <button type="submit" className="rounded-lg bg-amber-500 px-4 py-2 text-sm font-medium text-neutral-950">

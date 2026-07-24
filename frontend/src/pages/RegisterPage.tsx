@@ -28,30 +28,39 @@ export function RegisterPage() {
       <h1 className="mb-6 text-center text-2xl font-semibold text-neutral-100">Create account</h1>
       <form onSubmit={onSubmit} className="space-y-4 rounded-2xl border border-white/10 bg-white/5 p-6">
         {error && <p className="text-sm text-red-400">{error}</p>}
-        <input
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Full name"
-          required
-          className="w-full rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 outline-none focus:border-amber-400"
-        />
-        <input
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          type="email"
-          placeholder="Email"
-          required
-          className="w-full rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 outline-none focus:border-amber-400"
-        />
-        <input
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          type="password"
-          placeholder="Password (min 8 chars)"
-          required
-          minLength={8}
-          className="w-full rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 outline-none focus:border-amber-400"
-        />
+        <label className="block text-sm">
+          <span className="sr-only">Full name</span>
+          <input
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Full name"
+            required
+            className="w-full rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 outline-none focus:border-amber-400"
+          />
+        </label>
+        <label className="block text-sm">
+          <span className="sr-only">Email</span>
+          <input
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            type="email"
+            placeholder="Email"
+            required
+            className="w-full rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 outline-none focus:border-amber-400"
+          />
+        </label>
+        <label className="block text-sm">
+          <span className="sr-only">Password (min 8 chars)</span>
+          <input
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            type="password"
+            placeholder="Password (min 8 chars)"
+            required
+            minLength={8}
+            className="w-full rounded-lg border border-white/10 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 outline-none focus:border-amber-400"
+          />
+        </label>
         <div className="flex gap-2 text-sm">
           {(["CUSTOMER", "HOTEL_OWNER"] as const).map((r) => (
             <button
