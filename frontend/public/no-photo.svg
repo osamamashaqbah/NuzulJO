@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#262626"/>
+  <path d="M140 190v-70l60-36 60 36v70" fill="none" stroke="#525252" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="185" y="150" width="30" height="40" fill="#525252"/>
+  <text x="200" y="230" fill="#737373" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">No photos uploaded yet</text>
+</svg>

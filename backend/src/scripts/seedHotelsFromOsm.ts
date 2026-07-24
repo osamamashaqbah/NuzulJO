@@ -35,12 +35,6 @@ function nearestCity(lat: number, lon: number) {
   return best;
 }
 
-// SEED (not from OSM): placeholder images via picsum.photos, deterministic per hotel/room id, free & no API key.
-// osmId is like "way/1225740619" — the literal "/" would break picsum's /seed/{value}/{w}/{h} path, so sanitize it.
-function placeholderImage(seed: string, w = 800, h = 600) {
-  return `https://picsum.photos/seed/${seed.replace(/\//g, "-")}/${w}/${h}`;
-}
-
 async function main() {
   console.log("Fetching hotels from OpenStreetMap (Overpass API)...");
   const osmHotels = await fetchOsmHotels();
@@ -88,12 +82,12 @@ async function main() {
         osmId: osmHotel.osmId,
         cityId: city.id,
         ownerId: seedOwner.id,
-        // SEED (not from OSM): demo description/rating/images/rooms/amenities below.
+        // SEED (not from OSM): demo description/rating/rooms/amenities below.
+        // No images are seeded — OSM has no real photo for the overwhelming majority of these
+        // venues, and a stock/random photo would misrepresent an actual hotel. Real photos are
+        // added once the real owner registers and uploads via POST /hotels/:id/images.
         description: `${osmHotel.name} is located in ${city.name}, Jordan. (Seed description — replace with real content.)`,
         starRating: 3 + Math.floor(Math.random() * 3), // 3-5, seed only
-        images: {
-          create: [0, 1, 2].map((i) => ({ url: placeholderImage(`${osmHotel.osmId}-${i}`), position: i })),
-        },
         amenities: {
           create: amenityRecords
             .filter(() => Math.random() > 0.3)
@@ -104,7 +98,6 @@ async function main() {
             type,
             pricePerNight: 40 + i * 25 + Math.floor(Math.random() * 20), // seed price in JOD
             capacity: type === "SINGLE" ? 1 : type === "FAMILY" ? 4 : 2,
-            images: { create: [{ url: placeholderImage(`${osmHotel.osmId}-room-${i}`), position: 0 }] },
           })),
         },
       },

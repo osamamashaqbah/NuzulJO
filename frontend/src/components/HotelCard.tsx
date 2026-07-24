@@ -4,7 +4,7 @@ import type { MouseEvent } from "react";
 import type { Hotel } from "../types";
 
 export function HotelCard({ hotel }: { hotel: Hotel }) {
-  const cover = hotel.images[0]?.url ?? "https://picsum.photos/seed/placeholder/800/600";
+  const cover = hotel.images[0]?.url ?? "/no-photo.svg";
 
   const x = useMotionValue(0.5);
   const y = useMotionValue(0.5);

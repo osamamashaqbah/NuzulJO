@@ -55,11 +55,15 @@ export function HotelDetailPage() {
         {hotel.city?.name} {avgRating && `· ★ ${avgRating} (${reviews.length} reviews)`}
       </p>
 
-      {hotel.images.length > 0 && (
-        <div className="mt-6">
+      <div className="mt-6">
+        {hotel.images.length > 0 ? (
           <ImageGallery3D images={hotel.images.map((i) => i.url)} alt={hotel.name} />
-        </div>
-      )}
+        ) : (
+          <div className="flex aspect-video items-center justify-center rounded-2xl border border-white/10 bg-neutral-900 text-neutral-500">
+            No photos uploaded by this hotel yet
+          </div>
+        )}
+      </div>
 
       <p className="mt-6 max-w-3xl text-neutral-300">{hotel.description}</p>
 
