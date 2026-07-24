@@ -85,8 +85,11 @@ export async function refresh(req: Request, res: Response) {
     return res.status(401).json({ error: "Refresh token expired or revoked" });
   }
 
-  // rotate: delete old, issue new
-  await prisma.refreshToken.delete({ where: { token: jti } });
+  // rotate: delete old, issue new. deleteMany (not delete) so a concurrent duplicate
+  // request racing the same token doesn't crash on "record not found" — it just no-ops.
+  const { count } = await prisma.refreshToken.deleteMany({ where: { token: jti } });
+  if (count === 0) return res.status(401).json({ error: "Refresh token already used" });
+
   const user = await prisma.user.findUnique({ where: { id: stored.userId } });
   if (!user) return res.status(401).json({ error: "User not found" });
 
