@@ -8,6 +8,7 @@ import {
   cancelBooking,
   getBookingReceipt,
 } from "../controllers/bookingController";
+import { createReview } from "../controllers/reviewController";
 
 export const bookingRoutes = Router();
 
@@ -17,3 +18,4 @@ bookingRoutes.get("/hotel/:hotelId", requireAuth, requireRole("HOTEL_OWNER"), li
 bookingRoutes.patch("/:id/status", requireAuth, requireRole("HOTEL_OWNER"), updateBookingStatus);
 bookingRoutes.patch("/:id/cancel", requireAuth, requireRole("CUSTOMER"), cancelBooking);
 bookingRoutes.get("/:id/receipt", requireAuth, getBookingReceipt);
+bookingRoutes.post("/:bookingId/review", requireAuth, requireRole("CUSTOMER"), createReview);

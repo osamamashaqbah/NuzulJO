@@ -11,10 +11,12 @@ import {
   uploadHotelImages,
 } from "../controllers/hotelController";
 import { hotelRoomRoutes } from "./roomRoutes";
+import { listHotelReviews } from "../controllers/reviewController";
 
 export const hotelRoutes = Router();
 
 hotelRoutes.use("/:hotelId/rooms", hotelRoomRoutes);
+hotelRoutes.get("/:hotelId/reviews", listHotelReviews);
 
 hotelRoutes.get("/", listHotels);
 hotelRoutes.get("/mine", requireAuth, requireRole("HOTEL_OWNER"), listMyHotels);
