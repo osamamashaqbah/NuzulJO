@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import { AnimatedGradientBg } from "../components/AnimatedGradientBg";
 
 export function LoginPage() {
   const { login } = useAuth();
@@ -21,7 +22,8 @@ export function LoginPage() {
   }
 
   return (
-    <div className="mx-auto max-w-sm px-4 py-20">
+    <div className="relative mx-auto max-w-sm overflow-hidden px-4 py-20">
+      <AnimatedGradientBg />
       <h1 className="mb-6 text-center text-2xl font-semibold text-neutral-100">Log in</h1>
       <form onSubmit={onSubmit} className="space-y-4 rounded-2xl border border-white/10 bg-white/5 p-6">
         {error && <p className="text-sm text-red-400">{error}</p>}

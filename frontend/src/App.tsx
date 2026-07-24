@@ -1,6 +1,8 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import { Navbar } from "./components/Navbar";
 import { ProtectedRoute } from "./components/ProtectedRoute";
+import { PageTransition } from "./components/PageTransition";
 import { HomePage } from "./pages/HomePage";
 import { HotelDetailPage } from "./pages/HotelDetailPage";
 import { LoginPage } from "./pages/LoginPage";
@@ -10,39 +12,49 @@ import { OwnerDashboardPage } from "./pages/OwnerDashboardPage";
 import { AdminDashboardPage } from "./pages/AdminDashboardPage";
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="min-h-svh bg-neutral-950 text-neutral-100">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/hotels/:id" element={<HotelDetailPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route
-          path="/my-bookings"
-          element={
-            <ProtectedRoute roles={["CUSTOMER"]}>
-              <MyBookingsPage />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/owner"
-          element={
-            <ProtectedRoute roles={["HOTEL_OWNER"]}>
-              <OwnerDashboardPage />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/admin"
-          element={
-            <ProtectedRoute roles={["ADMIN"]}>
-              <AdminDashboardPage />
-            </ProtectedRoute>
-          }
-        />
-      </Routes>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
+          <Route path="/hotels/:id" element={<PageTransition><HotelDetailPage /></PageTransition>} />
+          <Route path="/login" element={<PageTransition><LoginPage /></PageTransition>} />
+          <Route path="/register" element={<PageTransition><RegisterPage /></PageTransition>} />
+          <Route
+            path="/my-bookings"
+            element={
+              <PageTransition>
+                <ProtectedRoute roles={["CUSTOMER"]}>
+                  <MyBookingsPage />
+                </ProtectedRoute>
+              </PageTransition>
+            }
+          />
+          <Route
+            path="/owner"
+            element={
+              <PageTransition>
+                <ProtectedRoute roles={["HOTEL_OWNER"]}>
+                  <OwnerDashboardPage />
+                </ProtectedRoute>
+              </PageTransition>
+            }
+          />
+          <Route
+            path="/admin"
+            element={
+              <PageTransition>
+                <ProtectedRoute roles={["ADMIN"]}>
+                  <AdminDashboardPage />
+                </ProtectedRoute>
+              </PageTransition>
+            }
+          />
+        </Routes>
+      </AnimatePresence>
     </div>
   )
 }

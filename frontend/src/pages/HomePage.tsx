@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { api } from "../api/client";
 import { HotelCard } from "../components/HotelCard";
+import { Hero3D } from "../components/Hero3D";
+import { AnimatedGradientBg } from "../components/AnimatedGradientBg";
 import type { Hotel } from "../types";
 
 const AMENITY_OPTIONS = ["wifi", "breakfast", "parking", "pool", "ac"];
@@ -38,9 +40,13 @@ export function HomePage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <section className="mb-10 rounded-3xl border border-white/10 bg-gradient-to-br from-amber-500/10 via-neutral-900 to-cyan-900/20 p-10 text-center">
-        <h1 className="text-4xl font-semibold tracking-tight text-neutral-50">Find your stay in Jordan</h1>
-        <p className="mt-2 text-neutral-400">Book directly with real hotels across Amman, the Dead Sea, Petra, Aqaba, and Jerash.</p>
+      <section className="relative mb-10 grid gap-6 overflow-hidden rounded-3xl border border-white/10 bg-neutral-900 p-6 sm:p-10 lg:grid-cols-2 lg:items-center">
+        <AnimatedGradientBg />
+        <div className="text-center lg:text-left">
+          <h1 className="text-4xl font-semibold tracking-tight text-neutral-50">Find your stay in Jordan</h1>
+          <p className="mt-2 text-neutral-400">Book directly with real hotels across Amman, the Dead Sea, Petra, Aqaba, and Jerash.</p>
+        </div>
+        <Hero3D />
       </section>
 
       <div className="mb-8 grid gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 sm:grid-cols-2 lg:grid-cols-4">

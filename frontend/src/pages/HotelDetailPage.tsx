@@ -5,6 +5,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { api } from "../api/client";
 import { useAuth } from "../context/AuthContext";
+import { ImageGallery3D } from "../components/ImageGallery3D";
 import type { Hotel, Review, Room } from "../types";
 
 // Default Leaflet marker assets don't resolve correctly through bundlers; point at the CDN copies instead.
@@ -55,10 +56,8 @@ export function HotelDetailPage() {
       </p>
 
       {hotel.images.length > 0 && (
-        <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
-          {hotel.images.map((img) => (
-            <img key={img.id} src={img.url} className="aspect-square rounded-xl object-cover" loading="lazy" />
-          ))}
+        <div className="mt-6">
+          <ImageGallery3D images={hotel.images.map((i) => i.url)} alt={hotel.name} />
         </div>
       )}
 
