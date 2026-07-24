@@ -1,0 +1,2235 @@
+[
+  {
+    "osmId": "node/469899766",
+    "name": "Marriott Hotel",
+    "latitude": 31.7187633,
+    "longitude": 35.5866568,
+    "address": null
+  },
+  {
+    "osmId": "node/469899768",
+    "name": "King Hussein Bin Talal Convention Center",
+    "latitude": 31.7213016,
+    "longitude": 35.5893474,
+    "address": null
+  },
+  {
+    "osmId": "node/472264830",
+    "name": "Moab Land Hotel",
+    "latitude": 31.717714,
+    "longitude": 35.7935538,
+    "address": null
+  },
+  {
+    "osmId": "node/472387411",
+    "name": "فندق ريو الأردن",
+    "latitude": 32.0247928,
+    "longitude": 35.8517311,
+    "address": null
+  },
+  {
+    "osmId": "node/474712132",
+    "name": "فندق الفنار بالاس",
+    "latitude": 31.9969156,
+    "longitude": 35.8834801,
+    "address": null
+  },
+  {
+    "osmId": "node/474976842",
+    "name": "Regency Palace Hotel",
+    "latitude": 31.9757627,
+    "longitude": 35.9066233,
+    "address": null
+  },
+  {
+    "osmId": "node/482811290",
+    "name": "Mövenpick",
+    "latitude": 31.9861377,
+    "longitude": 35.8645485,
+    "address": null
+  },
+  {
+    "osmId": "node/535400294",
+    "name": "Geneva Hotel",
+    "latitude": 31.963401,
+    "longitude": 35.8568498,
+    "address": null
+  },
+  {
+    "osmId": "node/544529696",
+    "name": "Al Waleed",
+    "latitude": 31.9579498,
+    "longitude": 35.8613486,
+    "address": null
+  },
+  {
+    "osmId": "node/547987081",
+    "name": "Petra Palace Hotel",
+    "latitude": 30.3253411,
+    "longitude": 35.4719751,
+    "address": null
+  },
+  {
+    "osmId": "node/548043454",
+    "name": "فندق مارينا بلازا",
+    "latitude": 29.4103176,
+    "longitude": 34.98099,
+    "address": null
+  },
+  {
+    "osmId": "node/596590110",
+    "name": "فندق شام",
+    "latitude": 31.9754111,
+    "longitude": 35.8946921,
+    "address": null
+  },
+  {
+    "osmId": "node/597261185",
+    "name": "Bait Zaman",
+    "latitude": 30.3268031,
+    "longitude": 35.4872291,
+    "address": null
+  },
+  {
+    "osmId": "node/604990462",
+    "name": "كورال بي",
+    "latitude": 29.3993423,
+    "longitude": 34.9674652,
+    "address": null
+  },
+  {
+    "osmId": "node/639738121",
+    "name": "موفنبيك",
+    "latitude": 29.5324098,
+    "longitude": 34.9995105,
+    "address": "العقبة"
+  },
+  {
+    "osmId": "node/660134631",
+    "name": "The Loft Hotel By Bratus",
+    "latitude": 29.5319199,
+    "longitude": 35.0028051,
+    "address": "Al-Sa'Ada Street, Aqaba"
+  },
+  {
+    "osmId": "node/690422447",
+    "name": "القصر",
+    "latitude": 31.9735338,
+    "longitude": 35.8982324,
+    "address": null
+  },
+  {
+    "osmId": "node/715685922",
+    "name": "Ibis Amman",
+    "latitude": 31.9903937,
+    "longitude": 35.8649198,
+    "address": null
+  },
+  {
+    "osmId": "node/719557796",
+    "name": "Olive Branch Resort",
+    "latitude": 32.2962867,
+    "longitude": 35.855107,
+    "address": null
+  },
+  {
+    "osmId": "node/727744659",
+    "name": "RSCN Azraq Lodge",
+    "latitude": 31.8359285,
+    "longitude": 36.8075883,
+    "address": null
+  },
+  {
+    "osmId": "node/747693174",
+    "name": "Cameo Hotel",
+    "latitude": 31.9576136,
+    "longitude": 35.8999798,
+    "address": null
+  },
+  {
+    "osmId": "node/747693258",
+    "name": "Amman West Hotel",
+    "latitude": 31.9578457,
+    "longitude": 35.8998672,
+    "address": null
+  },
+  {
+    "osmId": "node/964856121",
+    "name": "Pilgrim's House",
+    "latitude": 31.7174944,
+    "longitude": 35.7938689,
+    "address": null
+  },
+  {
+    "osmId": "node/964953656",
+    "name": "O Beach",
+    "latitude": 31.6833499,
+    "longitude": 35.5749712,
+    "address": null
+  },
+  {
+    "osmId": "node/968928150",
+    "name": "Mussa Spring hotel",
+    "latitude": 30.3250567,
+    "longitude": 35.4974295,
+    "address": null
+  },
+  {
+    "osmId": "node/970179153",
+    "name": "فندق منصور",
+    "latitude": 31.9522852,
+    "longitude": 35.9328553,
+    "address": null
+  },
+  {
+    "osmId": "node/970179156",
+    "name": "بغداد غران هوتيل",
+    "latitude": 31.9517651,
+    "longitude": 35.9327749,
+    "address": null
+  },
+  {
+    "osmId": "node/970179162",
+    "name": "فندق فرح",
+    "latitude": 31.9529142,
+    "longitude": 35.9329892,
+    "address": null
+  },
+  {
+    "osmId": "node/975955978",
+    "name": "فندق برج الأردن",
+    "latitude": 31.9516775,
+    "longitude": 35.937332,
+    "address": "Hashemee str Downtown Amman"
+  },
+  {
+    "osmId": "node/1095660266",
+    "name": "Aljun Forest Reserve Cabins",
+    "latitude": 32.3802512,
+    "longitude": 35.7635842,
+    "address": null
+  },
+  {
+    "osmId": "node/1192386785",
+    "name": "Aquamarina 3",
+    "latitude": 29.5270055,
+    "longitude": 35.0100641,
+    "address": null
+  },
+  {
+    "osmId": "node/1212865703",
+    "name": "إستراحة قصر الأزرق",
+    "latitude": 31.8613621,
+    "longitude": 36.8071782,
+    "address": null
+  },
+  {
+    "osmId": "node/1216503411",
+    "name": "إربد بلازا",
+    "latitude": 32.5319918,
+    "longitude": 35.8519312,
+    "address": "شفيق ارشيدات \\ الجامعة"
+  },
+  {
+    "osmId": "node/1229933076",
+    "name": "Feynan Eco Lodge",
+    "latitude": 30.6395644,
+    "longitude": 35.5092874,
+    "address": null
+  },
+  {
+    "osmId": "node/1335747441",
+    "name": "Sun Rise Hotel",
+    "latitude": 31.9601739,
+    "longitude": 35.9181977,
+    "address": null
+  },
+  {
+    "osmId": "node/1525347740",
+    "name": "Amman Inn Hotel",
+    "latitude": 31.9572152,
+    "longitude": 35.8710398,
+    "address": null
+  },
+  {
+    "osmId": "node/1525347757",
+    "name": "Amman Inn",
+    "latitude": 31.9561011,
+    "longitude": 35.8697421,
+    "address": null
+  },
+  {
+    "osmId": "node/1654277402",
+    "name": "Rama Hotel",
+    "latitude": 31.9627173,
+    "longitude": 35.8571165,
+    "address": null
+  },
+  {
+    "osmId": "node/1784439899",
+    "name": "Karak Rest House",
+    "latitude": 31.1820649,
+    "longitude": 35.701738,
+    "address": null
+  },
+  {
+    "osmId": "node/2284359749",
+    "name": "Black Iris",
+    "latitude": 31.721646,
+    "longitude": 35.791596,
+    "address": null
+  },
+  {
+    "osmId": "node/2284366408",
+    "name": "Wadi Mujib Chalets",
+    "latitude": 31.4702538,
+    "longitude": 35.568775,
+    "address": null
+  },
+  {
+    "osmId": "node/2344061532",
+    "name": "Cedar Hotel",
+    "latitude": 29.5305594,
+    "longitude": 35.0058197,
+    "address": null
+  },
+  {
+    "osmId": "node/2344065876",
+    "name": "Phoenix Hotel",
+    "latitude": 31.7232666,
+    "longitude": 35.7919099,
+    "address": null
+  },
+  {
+    "osmId": "node/2412814702",
+    "name": "Canary Hotel",
+    "latitude": 31.9572222,
+    "longitude": 35.9187293,
+    "address": null
+  },
+  {
+    "osmId": "node/2417964230",
+    "name": "Amman Pasha Hotel",
+    "latitude": 31.9525219,
+    "longitude": 35.9378725,
+    "address": "Al Shabsogh, 4"
+  },
+  {
+    "osmId": "node/2495957064",
+    "name": "Wadi Rum Desert Secret",
+    "latitude": 29.602016,
+    "longitude": 35.487128,
+    "address": "Siq Um Al Tawagi, Al Quweira District, Akaba, Jordan,, Aqaba"
+  },
+  {
+    "osmId": "node/2577178558",
+    "name": "برج العرب",
+    "latitude": 31.9513414,
+    "longitude": 35.9361196,
+    "address": "Al Hashimi, Amman"
+  },
+  {
+    "osmId": "node/2738863385",
+    "name": "Misk Hotel",
+    "latitude": 31.9801808,
+    "longitude": 35.8935127,
+    "address": "Abdulhameed Sharaf, 118, Shmeisani"
+  },
+  {
+    "osmId": "node/2807845605",
+    "name": "Gardenia Hotel",
+    "latitude": 31.980354,
+    "longitude": 35.8933286,
+    "address": null
+  },
+  {
+    "osmId": "node/2988548958",
+    "name": "Ajloun Hotel",
+    "latitude": 32.3296119,
+    "longitude": 35.7344485,
+    "address": null
+  },
+  {
+    "osmId": "node/3243260545",
+    "name": "Cliff Hotel",
+    "latitude": 31.9520272,
+    "longitude": 35.9319619,
+    "address": "Prince Mohammed St, 11115, Amman"
+  },
+  {
+    "osmId": "node/3355357735",
+    "name": "Mosaic City Hotel",
+    "latitude": 31.7210959,
+    "longitude": 35.7926029,
+    "address": null
+  },
+  {
+    "osmId": "node/3379138563",
+    "name": "Hayat Zaman Hotel & Resort",
+    "latitude": 30.2548309,
+    "longitude": 35.4598663,
+    "address": "Petra-Wadi Mousa Street, Taybeh"
+  },
+  {
+    "osmId": "node/3396544045",
+    "name": "Mariam Hotel",
+    "latitude": 31.7242464,
+    "longitude": 35.7950427,
+    "address": null
+  },
+  {
+    "osmId": "node/3396550248",
+    "name": "Red Rose Hotel and Suites",
+    "latitude": 31.9666798,
+    "longitude": 35.8749827,
+    "address": null
+  },
+  {
+    "osmId": "node/3396744530",
+    "name": "My Hotel",
+    "latitude": 29.5320325,
+    "longitude": 35.0022779,
+    "address": null
+  },
+  {
+    "osmId": "node/3423175525",
+    "name": "City Rose Hotel Suites",
+    "latitude": 31.9968144,
+    "longitude": 35.8721869,
+    "address": null
+  },
+  {
+    "osmId": "node/3492936915",
+    "name": "St John Hotel & Rabwat Madaba Sky Bar & Restaurant",
+    "latitude": 31.7152699,
+    "longitude": 35.7936849,
+    "address": null
+  },
+  {
+    "osmId": "node/3536436539",
+    "name": "Oryx Hotel",
+    "latitude": 29.5401096,
+    "longitude": 34.9993798,
+    "address": "Al Sharif Shakir Bin Zayd Street, Aqaba"
+  },
+  {
+    "osmId": "node/3555055847",
+    "name": "Crowne Plaza",
+    "latitude": 31.7068514,
+    "longitude": 35.5839231,
+    "address": null
+  },
+  {
+    "osmId": "node/3566684297",
+    "name": "Heritage House",
+    "latitude": 31.949759,
+    "longitude": 35.931086,
+    "address": null
+  },
+  {
+    "osmId": "node/4010295708",
+    "name": "Ocean Hotel",
+    "latitude": 31.9673356,
+    "longitude": 35.8748116,
+    "address": null
+  },
+  {
+    "osmId": "node/4058094544",
+    "name": "Captain's Hotel",
+    "latitude": 29.5311526,
+    "longitude": 35.0024414,
+    "address": null
+  },
+  {
+    "osmId": "node/4126990189",
+    "name": "الكرمل للشقق الفندقية",
+    "latitude": 31.972832,
+    "longitude": 35.9112264,
+    "address": "Nablus Street, 107"
+  },
+  {
+    "osmId": "node/4155969989",
+    "name": "Petra Nights Hotel",
+    "latitude": 30.3230808,
+    "longitude": 35.486458,
+    "address": null
+  },
+  {
+    "osmId": "node/4171748695",
+    "name": "Little Petra Bedouin Camp",
+    "latitude": 30.370803,
+    "longitude": 35.4584968,
+    "address": null
+  },
+  {
+    "osmId": "node/4225485306",
+    "name": "فندق الفراشة",
+    "latitude": 32.0285906,
+    "longitude": 35.8650865,
+    "address": null
+  },
+  {
+    "osmId": "node/4226432492",
+    "name": "Raouche",
+    "latitude": 32.005447,
+    "longitude": 35.8792562,
+    "address": null
+  },
+  {
+    "osmId": "node/4228235389",
+    "name": "نادي ضباط الشمال",
+    "latitude": 32.5517878,
+    "longitude": 35.8641042,
+    "address": null
+  },
+  {
+    "osmId": "node/4272282789",
+    "name": "Uptown Apartments",
+    "latitude": 31.996382,
+    "longitude": 35.8736722,
+    "address": "Al-Jhair Street, 19, Amman"
+  },
+  {
+    "osmId": "node/4346227300",
+    "name": "فندق الجود",
+    "latitude": 32.5394793,
+    "longitude": 35.8496536,
+    "address": null
+  },
+  {
+    "osmId": "node/4353688190",
+    "name": "ضراغمة شقق فندقيه",
+    "latitude": 31.965386,
+    "longitude": 35.8851403,
+    "address": null
+  },
+  {
+    "osmId": "node/4368955289",
+    "name": "فندق رافي",
+    "latitude": 31.9505987,
+    "longitude": 35.9368279,
+    "address": "Quraysh Street, Building 120"
+  },
+  {
+    "osmId": "node/4370834312",
+    "name": "فندق قصر السلطان",
+    "latitude": 31.9146707,
+    "longitude": 35.9137824,
+    "address": null
+  },
+  {
+    "osmId": "node/4379262790",
+    "name": "Liwan Hotel",
+    "latitude": 31.9558818,
+    "longitude": 35.8653427,
+    "address": null
+  },
+  {
+    "osmId": "node/4382999297",
+    "name": "Jabal Amman Hotel",
+    "latitude": 31.9495984,
+    "longitude": 35.9310623,
+    "address": "شارع طاهر الجقة, 2, Amman"
+  },
+  {
+    "osmId": "node/4408535595",
+    "name": "فندق سميراميس",
+    "latitude": 31.9900407,
+    "longitude": 35.8715063,
+    "address": null
+  },
+  {
+    "osmId": "node/4461945204",
+    "name": "The Boutique Hotel Amman",
+    "latitude": 31.9525717,
+    "longitude": 35.9306288,
+    "address": null
+  },
+  {
+    "osmId": "node/4577431092",
+    "name": "بوليفار روتانا",
+    "latitude": 31.9646693,
+    "longitude": 35.9068299,
+    "address": null
+  },
+  {
+    "osmId": "node/4584252799",
+    "name": "موقف الفندق",
+    "latitude": 31.9647542,
+    "longitude": 35.9064417,
+    "address": null
+  },
+  {
+    "osmId": "node/4652636106",
+    "name": "ساندي بلاس",
+    "latitude": 31.9686173,
+    "longitude": 35.9157894,
+    "address": "Khaled Bin Al Waleed Street"
+  },
+  {
+    "osmId": "node/4711987758",
+    "name": "Seven Roses Hotel",
+    "latitude": 31.9556742,
+    "longitude": 35.8567512,
+    "address": null
+  },
+  {
+    "osmId": "node/4788233164",
+    "name": "فندق أحلى طلة",
+    "latitude": 29.5230255,
+    "longitude": 35.002832,
+    "address": "شارع الملك حسين, العقبة"
+  },
+  {
+    "osmId": "node/4788233165",
+    "name": "Sea View Hotel",
+    "latitude": 29.5249416,
+    "longitude": 35.0024083,
+    "address": "Ar-Razi St."
+  },
+  {
+    "osmId": "node/4788233166",
+    "name": "Hospitality Palace Hotel",
+    "latitude": 29.5255718,
+    "longitude": 35.0022339,
+    "address": "Ar-Razi St."
+  },
+  {
+    "osmId": "node/4788233167",
+    "name": "Beach Hotel",
+    "latitude": 29.5264236,
+    "longitude": 35.0022384,
+    "address": null
+  },
+  {
+    "osmId": "node/4788233168",
+    "name": "Al-Naher Al-Khaled Hotel",
+    "latitude": 29.5255111,
+    "longitude": 35.004626,
+    "address": "Ar-Razi St."
+  },
+  {
+    "osmId": "node/4788233169",
+    "name": "Dweik Hotel 1",
+    "latitude": 29.5287738,
+    "longitude": 35.0036868,
+    "address": null
+  },
+  {
+    "osmId": "node/4788233170",
+    "name": "Amer Hotel 2",
+    "latitude": 29.5288415,
+    "longitude": 35.003617,
+    "address": null
+  },
+  {
+    "osmId": "node/4788233171",
+    "name": "Amira Hotel",
+    "latitude": 29.5289862,
+    "longitude": 35.0036787,
+    "address": null
+  },
+  {
+    "osmId": "node/4788542112",
+    "name": "Nairoukh Hotel",
+    "latitude": 29.5267724,
+    "longitude": 35.007832,
+    "address": null
+  },
+  {
+    "osmId": "node/4788542113",
+    "name": "Golden Rose Hotel",
+    "latitude": 29.5278927,
+    "longitude": 35.005595,
+    "address": "Al Reem Street"
+  },
+  {
+    "osmId": "node/4788542114",
+    "name": "J Plaza Hotel",
+    "latitude": 29.5283501,
+    "longitude": 35.0061315,
+    "address": null
+  },
+  {
+    "osmId": "node/4788542115",
+    "name": "Al-Safa Tourist Hotel",
+    "latitude": 29.5296477,
+    "longitude": 35.004388,
+    "address": "Al-Tuniseah St."
+  },
+  {
+    "osmId": "node/4788669950",
+    "name": "Dana Hotel",
+    "latitude": 30.675145,
+    "longitude": 35.610003,
+    "address": null
+  },
+  {
+    "osmId": "node/4788710971",
+    "name": "Al-Mujeb Hotel",
+    "latitude": 31.1708864,
+    "longitude": 35.73182,
+    "address": null
+  },
+  {
+    "osmId": "node/4788766567",
+    "name": "Crystal Suites Hotel",
+    "latitude": 31.9627023,
+    "longitude": 35.8828826,
+    "address": "Al Kindi Street"
+  },
+  {
+    "osmId": "node/4788836349",
+    "name": "جرش",
+    "latitude": 32.2722406,
+    "longitude": 35.8917833,
+    "address": "Jerash Main Road"
+  },
+  {
+    "osmId": "node/4788897081",
+    "name": "Qalet Al Jabal Hotel",
+    "latitude": 32.3294399,
+    "longitude": 35.7400094,
+    "address": "Castle St"
+  },
+  {
+    "osmId": "node/4788897120",
+    "name": "Al-Joud Hotel",
+    "latitude": 32.5400274,
+    "longitude": 35.8495625,
+    "address": "Al Jamaa Street"
+  },
+  {
+    "osmId": "node/4788898323",
+    "name": "Umm Qais Hotel",
+    "latitude": 32.6542629,
+    "longitude": 35.6837299,
+    "address": null
+  },
+  {
+    "osmId": "node/4815200633",
+    "name": "عمارة الجوزاء. موسى قنيبي",
+    "latitude": 32.0189389,
+    "longitude": 35.8754179,
+    "address": null
+  },
+  {
+    "osmId": "node/4844528119",
+    "name": "aljamalhotel",
+    "latitude": 32.0043118,
+    "longitude": 35.8708342,
+    "address": "Moh'd Al Rawashdeh Street, amman"
+  },
+  {
+    "osmId": "node/4857239821",
+    "name": "عمارة عمر المختار",
+    "latitude": 31.9715817,
+    "longitude": 35.91296,
+    "address": null
+  },
+  {
+    "osmId": "node/4866163222",
+    "name": "Seven Star",
+    "latitude": 31.9522066,
+    "longitude": 35.8584511,
+    "address": null
+  },
+  {
+    "osmId": "node/4867546223",
+    "name": "Larsa Hotel",
+    "latitude": 31.964693,
+    "longitude": 35.8424583,
+    "address": null
+  },
+  {
+    "osmId": "node/5004596822",
+    "name": "الهدير",
+    "latitude": 31.979547,
+    "longitude": 35.8948705,
+    "address": null
+  },
+  {
+    "osmId": "node/5018653226",
+    "name": "شقق الياسمين المفروشه",
+    "latitude": 29.5292125,
+    "longitude": 35.0070814,
+    "address": null
+  },
+  {
+    "osmId": "node/5020541235",
+    "name": "الجاردنز",
+    "latitude": 31.98256,
+    "longitude": 35.8907772,
+    "address": null
+  },
+  {
+    "osmId": "node/5046026021",
+    "name": "الهدير للأجنحة الفندقية",
+    "latitude": 31.979553,
+    "longitude": 35.8951449,
+    "address": null
+  },
+  {
+    "osmId": "node/5046026022",
+    "name": "الهدير للأجنحة الفندقية",
+    "latitude": 31.9795639,
+    "longitude": 35.8951446,
+    "address": "Yousef Bin Tashefeen Street"
+  },
+  {
+    "osmId": "node/5181142921",
+    "name": "Arena Space",
+    "latitude": 31.9855248,
+    "longitude": 35.8772949,
+    "address": null
+  },
+  {
+    "osmId": "node/5364751994",
+    "name": "Esperanza",
+    "latitude": 30.3283907,
+    "longitude": 35.4703447,
+    "address": null
+  },
+  {
+    "osmId": "node/5372223222",
+    "name": "الورده البيضاء",
+    "latitude": 31.8938854,
+    "longitude": 35.8411797,
+    "address": null
+  },
+  {
+    "osmId": "node/5436943021",
+    "name": "الدار",
+    "latitude": 32.0304736,
+    "longitude": 36.0517224,
+    "address": null
+  },
+  {
+    "osmId": "node/5503418671",
+    "name": "Bait Al-aqaba",
+    "latitude": 29.4262846,
+    "longitude": 34.979498,
+    "address": null
+  },
+  {
+    "osmId": "node/5550001821",
+    "name": "فندق شامي بلازا",
+    "latitude": 31.9667151,
+    "longitude": 35.9000909,
+    "address": null
+  },
+  {
+    "osmId": "node/5558552423",
+    "name": "Farah Hotel",
+    "latitude": 31.9518214,
+    "longitude": 35.9329549,
+    "address": null
+  },
+  {
+    "osmId": "node/5565785950",
+    "name": "Candles  hotel",
+    "latitude": 30.3264258,
+    "longitude": 35.471605,
+    "address": null
+  },
+  {
+    "osmId": "node/5566414242",
+    "name": "Aljazeera Hotel",
+    "latitude": 31.9649339,
+    "longitude": 35.9147449,
+    "address": "Marwan Al Thani, 46"
+  },
+  {
+    "osmId": "node/5605534621",
+    "name": "Beyond Wadi Rum Camp",
+    "latitude": 29.5196249,
+    "longitude": 35.4422075,
+    "address": null
+  },
+  {
+    "osmId": "node/5702896363",
+    "name": "سما باريس",
+    "latitude": 31.9835441,
+    "longitude": 35.8919493,
+    "address": null
+  },
+  {
+    "osmId": "node/5795631553",
+    "name": "العشم",
+    "latitude": 32.7135994,
+    "longitude": 35.73139,
+    "address": null
+  },
+  {
+    "osmId": "node/5837040289",
+    "name": "قصر جدة",
+    "latitude": 31.9684671,
+    "longitude": 35.9130684,
+    "address": null
+  },
+  {
+    "osmId": "node/5901736294",
+    "name": "BARAKA AL AQABA HOTEL SUITES",
+    "latitude": 29.524301,
+    "longitude": 35.0088121,
+    "address": "Prince Mohammad Street, العقبة"
+  },
+  {
+    "osmId": "node/5938293685",
+    "name": "home jorden",
+    "latitude": 32.0207424,
+    "longitude": 35.855318,
+    "address": null
+  },
+  {
+    "osmId": "node/5966469926",
+    "name": "Nomads",
+    "latitude": 31.9512863,
+    "longitude": 35.9260591,
+    "address": null
+  },
+  {
+    "osmId": "node/6004210797",
+    "name": "Afnan",
+    "latitude": 29.5232121,
+    "longitude": 35.0031676,
+    "address": "العقبة"
+  },
+  {
+    "osmId": "node/6008026286",
+    "name": "الجوهرة الأجنحة الفندقية",
+    "latitude": 32.0086361,
+    "longitude": 35.8837987,
+    "address": null
+  },
+  {
+    "osmId": "node/6107227601",
+    "name": "Lavender Amman Hotel",
+    "latitude": 31.7478749,
+    "longitude": 35.939734,
+    "address": "Amman"
+  },
+  {
+    "osmId": "node/6211563185",
+    "name": "DAR",
+    "latitude": 31.9564344,
+    "longitude": 35.9311551,
+    "address": null
+  },
+  {
+    "osmId": "node/6227174985",
+    "name": "Taj Hotel",
+    "latitude": 29.5251117,
+    "longitude": 35.006579,
+    "address": null
+  },
+  {
+    "osmId": "node/6409788973",
+    "name": "Sulaf Luxury Hotel",
+    "latitude": 31.9875984,
+    "longitude": 35.8669588,
+    "address": "Al-Madina Al-Munawwara"
+  },
+  {
+    "osmId": "node/6443207785",
+    "name": "Concord Hotel",
+    "latitude": 31.9526729,
+    "longitude": 35.9381755,
+    "address": null
+  },
+  {
+    "osmId": "node/6456334670",
+    "name": "Easy Inn",
+    "latitude": 31.9887508,
+    "longitude": 35.8750123,
+    "address": "شارع الشهيد وصفي التل"
+  },
+  {
+    "osmId": "node/6463215620",
+    "name": "Rayshan Hotel",
+    "latitude": 31.9821164,
+    "longitude": 35.8905315,
+    "address": "Halhoul Street"
+  },
+  {
+    "osmId": "node/6469738785",
+    "name": "Seven Wonders Bedouin Camp",
+    "latitude": 30.368034,
+    "longitude": 35.4619548,
+    "address": "Little Petra, Wadi Musa"
+  },
+  {
+    "osmId": "node/6497841604",
+    "name": "Karam House Inn",
+    "latitude": 29.5289597,
+    "longitude": 35.0063195,
+    "address": "Omer Kheyam Street, Aqaba"
+  },
+  {
+    "osmId": "node/6624457685",
+    "name": "Roza Beach Hotel",
+    "latitude": 29.5251763,
+    "longitude": 35.0023123,
+    "address": null
+  },
+  {
+    "osmId": "node/6644394890",
+    "name": "فندق لو غراند عمان",
+    "latitude": 31.9699613,
+    "longitude": 35.905784,
+    "address": null
+  },
+  {
+    "osmId": "node/6703550685",
+    "name": "الجسر الاردن",
+    "latitude": 31.8907619,
+    "longitude": 35.5770159,
+    "address": null
+  },
+  {
+    "osmId": "node/6712646868",
+    "name": "Silk Road Hotel",
+    "latitude": 30.3253632,
+    "longitude": 35.4711707,
+    "address": null
+  },
+  {
+    "osmId": "node/6771259024",
+    "name": "فندق جوهرة الزهور",
+    "latitude": 31.9186552,
+    "longitude": 35.9227504,
+    "address": null
+  },
+  {
+    "osmId": "node/6771281562",
+    "name": "فندق ربوة الزهور",
+    "latitude": 31.9193439,
+    "longitude": 35.9239426,
+    "address": null
+  },
+  {
+    "osmId": "node/6774432236",
+    "name": "فندق المعمورة",
+    "latitude": 31.9209071,
+    "longitude": 35.9375884,
+    "address": null
+  },
+  {
+    "osmId": "node/6802871608",
+    "name": "little petra heritage village",
+    "latitude": 30.3782262,
+    "longitude": 35.4689882,
+    "address": null
+  },
+  {
+    "osmId": "node/6846379709",
+    "name": "البرج الازرق للشقق الفندقية - اجنحة فاخرة",
+    "latitude": 31.9196094,
+    "longitude": 35.9225185,
+    "address": "شارع انس بن مالك"
+  },
+  {
+    "osmId": "node/6875122409",
+    "name": "Madaba Grand Hotel",
+    "latitude": 31.7247314,
+    "longitude": 35.7952756,
+    "address": null
+  },
+  {
+    "osmId": "node/6920417225",
+    "name": "Ruman",
+    "latitude": 31.7252294,
+    "longitude": 35.7955217,
+    "address": null
+  },
+  {
+    "osmId": "node/7000620174",
+    "name": "Oscar Hotel",
+    "latitude": 30.3193371,
+    "longitude": 35.472369,
+    "address": null
+  },
+  {
+    "osmId": "node/7083939305",
+    "name": "Petra Boutique Hotel",
+    "latitude": 30.3252687,
+    "longitude": 35.471301,
+    "address": null
+  },
+  {
+    "osmId": "node/7090760765",
+    "name": "Art Hotel",
+    "latitude": 31.9523607,
+    "longitude": 35.9325286,
+    "address": null
+  },
+  {
+    "osmId": "node/7090774991",
+    "name": "Aitch Boutique Hotel",
+    "latitude": 31.7229332,
+    "longitude": 35.794309,
+    "address": null
+  },
+  {
+    "osmId": "node/7102233837",
+    "name": "Dana Panorama Hotel",
+    "latitude": 30.672533,
+    "longitude": 35.6110687,
+    "address": null
+  },
+  {
+    "osmId": "node/7112025639",
+    "name": "Abbasi Palace Hotel",
+    "latitude": 31.9473785,
+    "longitude": 35.9344544,
+    "address": null
+  },
+  {
+    "osmId": "node/7112360326",
+    "name": "متحف الكروان",
+    "latitude": 31.9475056,
+    "longitude": 35.9346321,
+    "address": "72"
+  },
+  {
+    "osmId": "node/7116568595",
+    "name": "Shepherd Hotel",
+    "latitude": 31.949397,
+    "longitude": 35.9182325,
+    "address": "شارع زيد بن حارثة, 33"
+  },
+  {
+    "osmId": "node/7146232685",
+    "name": "Sabaa",
+    "latitude": 30.3218905,
+    "longitude": 35.4800749,
+    "address": null
+  },
+  {
+    "osmId": "node/7159245685",
+    "name": "Amer 2",
+    "latitude": 29.5288329,
+    "longitude": 35.0036032,
+    "address": null
+  },
+  {
+    "osmId": "node/7193521686",
+    "name": "فندق جراند ستا",
+    "latitude": 31.9848742,
+    "longitude": 35.8690623,
+    "address": null
+  },
+  {
+    "osmId": "node/7206750377",
+    "name": "jawal hotel",
+    "latitude": 31.9517809,
+    "longitude": 35.9367936,
+    "address": null
+  },
+  {
+    "osmId": "node/7281792547",
+    "name": "7 days",
+    "latitude": 32.5383705,
+    "longitude": 35.851814,
+    "address": null
+  },
+  {
+    "osmId": "node/7282942387",
+    "name": "Merryland Hotel",
+    "latitude": 31.9592656,
+    "longitude": 35.9214877,
+    "address": "شارع الملك الحسين"
+  },
+  {
+    "osmId": "node/7287951202",
+    "name": "ajnadeen",
+    "latitude": 32.5321889,
+    "longitude": 35.8544329,
+    "address": null
+  },
+  {
+    "osmId": "node/7684956313",
+    "name": "Hotel Hawa Amman",
+    "latitude": 31.9515632,
+    "longitude": 35.9331905,
+    "address": "شارع الملك فيصل"
+  },
+  {
+    "osmId": "node/8022424312",
+    "name": "Montreal Hotel",
+    "latitude": 30.5263291,
+    "longitude": 35.5650009,
+    "address": null
+  },
+  {
+    "osmId": "node/8904514917",
+    "name": "La Locanda Hotel",
+    "latitude": 31.9582534,
+    "longitude": 35.921552,
+    "address": null
+  },
+  {
+    "osmId": "node/9098305317",
+    "name": "Down Town Hotel Apartments",
+    "latitude": 31.9632357,
+    "longitude": 35.9061987,
+    "address": null
+  },
+  {
+    "osmId": "node/9546089517",
+    "name": "Artal hotel",
+    "latitude": 31.9756694,
+    "longitude": 35.8430608,
+    "address": null
+  },
+  {
+    "osmId": "node/9761000309",
+    "name": "Moses Residence",
+    "latitude": 30.321232,
+    "longitude": 35.4807832,
+    "address": null
+  },
+  {
+    "osmId": "node/9831771521",
+    "name": "Petra Sella",
+    "latitude": 30.3201302,
+    "longitude": 35.4834382,
+    "address": null
+  },
+  {
+    "osmId": "node/9836024280",
+    "name": "Liv Weibdeh Hotel Suites",
+    "latitude": 31.9562773,
+    "longitude": 35.9284537,
+    "address": null
+  },
+  {
+    "osmId": "node/9836024282",
+    "name": "Delmon Suites",
+    "latitude": 31.9522631,
+    "longitude": 35.9029539,
+    "address": null
+  },
+  {
+    "osmId": "node/9938577917",
+    "name": "Asad apt.",
+    "latitude": 30.3168002,
+    "longitude": 35.4776681,
+    "address": "Queen Rania street"
+  },
+  {
+    "osmId": "node/9952712219",
+    "name": "7 Caves house",
+    "latitude": 30.5289358,
+    "longitude": 35.5648239,
+    "address": "king’s highway"
+  },
+  {
+    "osmId": "node/10183085517",
+    "name": "Abu Subah Beduin Camp",
+    "latitude": 29.9752327,
+    "longitude": 35.3653979,
+    "address": null
+  },
+  {
+    "osmId": "node/10183085518",
+    "name": "Malakot of Wadi Rum",
+    "latitude": 29.8297808,
+    "longitude": 35.3840952,
+    "address": null
+  },
+  {
+    "osmId": "node/10186028358",
+    "name": "Hilton Amman",
+    "latitude": 31.9666803,
+    "longitude": 35.899086,
+    "address": "شارع إيليا أبو ماضي, 7, Amman"
+  },
+  {
+    "osmId": "node/10204095421",
+    "name": "Jewheret Alswefia Hotel Suites",
+    "latitude": 31.9581879,
+    "longitude": 35.8613466,
+    "address": null
+  },
+  {
+    "osmId": "node/10219857317",
+    "name": "La Casa Hotel",
+    "latitude": 31.9925324,
+    "longitude": 35.863659,
+    "address": null
+  },
+  {
+    "osmId": "node/10230272918",
+    "name": "Petra Moon Luxury Hotel",
+    "latitude": 30.3268319,
+    "longitude": 35.4689982,
+    "address": null
+  },
+  {
+    "osmId": "node/10230272919",
+    "name": "Venus Hotel",
+    "latitude": 30.3266007,
+    "longitude": 35.4690892,
+    "address": null
+  },
+  {
+    "osmId": "node/10235618509",
+    "name": "Signia by Hilton Amman",
+    "latitude": 31.9684555,
+    "longitude": 35.8973019,
+    "address": "Al-Qadhi Ayyadh Street, Amman"
+  },
+  {
+    "osmId": "node/10295218909",
+    "name": "Alena Hotel",
+    "latitude": 29.5246825,
+    "longitude": 35.0074436,
+    "address": "Prince Mohammad Street"
+  },
+  {
+    "osmId": "node/10697927105",
+    "name": "jerash hills",
+    "latitude": 32.2903335,
+    "longitude": 35.8820597,
+    "address": null
+  },
+  {
+    "osmId": "node/10697961305",
+    "name": "Petra paradise home",
+    "latitude": 30.3294367,
+    "longitude": 35.4798838,
+    "address": null
+  },
+  {
+    "osmId": "node/10760618705",
+    "name": "The Ritz-Carlton, Amman",
+    "latitude": 31.960971,
+    "longitude": 35.8819305,
+    "address": "شارع زهران"
+  },
+  {
+    "osmId": "node/10875971085",
+    "name": "Hotel Philosophy",
+    "latitude": 31.9520202,
+    "longitude": 35.9288654,
+    "address": null
+  },
+  {
+    "osmId": "node/11179116737",
+    "name": "Sandra hotel",
+    "latitude": 31.9467353,
+    "longitude": 35.9335644,
+    "address": "52"
+  },
+  {
+    "osmId": "node/11188191138",
+    "name": "قصر سبا",
+    "latitude": 31.9794487,
+    "longitude": 35.8980309,
+    "address": null
+  },
+  {
+    "osmId": "node/11191085837",
+    "name": "Dream House hotel",
+    "latitude": 32.2797257,
+    "longitude": 35.8981271,
+    "address": null
+  },
+  {
+    "osmId": "node/11298177844",
+    "name": "strand hotel",
+    "latitude": 31.9558265,
+    "longitude": 35.8701277,
+    "address": null
+  },
+  {
+    "osmId": "node/11363824034",
+    "name": "Dana Nabil Eco Camp House",
+    "latitude": 30.701205,
+    "longitude": 35.5953046,
+    "address": null
+  },
+  {
+    "osmId": "node/11901881446",
+    "name": "my grandfather haous",
+    "latitude": 30.677515,
+    "longitude": 35.6097951,
+    "address": "Dana trail, القادسية"
+  },
+  {
+    "osmId": "node/11929665321",
+    "name": "My Grandfather's House",
+    "latitude": 30.6766164,
+    "longitude": 35.6094032,
+    "address": "ضانا"
+  },
+  {
+    "osmId": "node/12765577225",
+    "name": "AlFares Tourist Hotel",
+    "latitude": 30.8402567,
+    "longitude": 35.6510176,
+    "address": null
+  },
+  {
+    "osmId": "node/12801910593",
+    "name": "hotel",
+    "latitude": 30.6805986,
+    "longitude": 35.6116915,
+    "address": null
+  },
+  {
+    "osmId": "node/12801910594",
+    "name": "Dana horizon hotel",
+    "latitude": 30.677854,
+    "longitude": 35.6107789,
+    "address": "Dana trail, 66665, Dana"
+  },
+  {
+    "osmId": "node/12877008601",
+    "name": "Hotel Mena Tyche",
+    "latitude": 31.963027,
+    "longitude": 35.8917618,
+    "address": null
+  },
+  {
+    "osmId": "node/12971339607",
+    "name": "Celino suites",
+    "latitude": 31.9612264,
+    "longitude": 35.9028679,
+    "address": null
+  },
+  {
+    "osmId": "node/13037615101",
+    "name": "فندق راديسون بلو عمان",
+    "latitude": 31.9593473,
+    "longitude": 35.8623739,
+    "address": null
+  },
+  {
+    "osmId": "node/13331931610",
+    "name": "Soho Midtown Hotel",
+    "latitude": 31.9556807,
+    "longitude": 35.9257113,
+    "address": null
+  },
+  {
+    "osmId": "node/13334424823",
+    "name": "Dali House",
+    "latitude": 31.9550842,
+    "longitude": 35.9278401,
+    "address": null
+  },
+  {
+    "osmId": "node/13411768231",
+    "name": "Beit Al Fannan",
+    "latitude": 32.4504433,
+    "longitude": 35.6183529,
+    "address": null
+  },
+  {
+    "osmId": "node/13426616137",
+    "name": "Ecolodge",
+    "latitude": 31.8717395,
+    "longitude": 35.6313209,
+    "address": null
+  },
+  {
+    "osmId": "node/13514008059",
+    "name": "al amer palace hotel",
+    "latitude": 31.9928212,
+    "longitude": 35.8795924,
+    "address": null
+  },
+  {
+    "osmId": "node/13714164401",
+    "name": "Restotel",
+    "latitude": 31.1822102,
+    "longitude": 35.7018428,
+    "address": null
+  },
+  {
+    "osmId": "node/13717585001",
+    "name": "Bubble Castle",
+    "latitude": 31.1810685,
+    "longitude": 35.7034264,
+    "address": "Al-Karak Highway Castle street, 61110 Kerak, Jordan"
+  },
+  {
+    "osmId": "node/13895930603",
+    "name": "فندق جوابرة للأجنحة الفندقية",
+    "latitude": 32.0939531,
+    "longitude": 36.0872045,
+    "address": "شارع الكرامة"
+  },
+  {
+    "osmId": "node/13948516402",
+    "name": "Ten Hills",
+    "latitude": 31.89929,
+    "longitude": 35.8558937,
+    "address": null
+  },
+  {
+    "osmId": "way/41022794",
+    "name": "Petra Guest House",
+    "latitude": 30.3234153,
+    "longitude": 35.4669992,
+    "address": "Wadi Musa"
+  },
+  {
+    "osmId": "way/50354780",
+    "name": "Aqaba Gulf Hotel",
+    "latitude": 29.5317356,
+    "longitude": 35.00128,
+    "address": "King Hussein Street, 1312, Aqaba"
+  },
+  {
+    "osmId": "way/51659678",
+    "name": "The Loft Hotel By Bratus",
+    "latitude": 29.5319511,
+    "longitude": 35.0028214,
+    "address": "Al-Sa'Ada Street, Aqaba"
+  },
+  {
+    "osmId": "way/51722634",
+    "name": "DoubleTree by Hilton Hotel Aqaba",
+    "latitude": 29.5301833,
+    "longitude": 35.00349,
+    "address": "Al-Hammamat Al-Tunisyya Street, Aqaba"
+  },
+  {
+    "osmId": "way/92732371",
+    "name": "Crowne Plaza",
+    "latitude": 30.3260414,
+    "longitude": 35.4654884,
+    "address": null
+  },
+  {
+    "osmId": "way/92736725",
+    "name": "Petra Marriott Hotel",
+    "latitude": 30.304607,
+    "longitude": 35.4636197,
+    "address": null
+  },
+  {
+    "osmId": "way/92785441",
+    "name": "Amra Palace Hotel",
+    "latitude": 30.3197698,
+    "longitude": 35.4806306,
+    "address": null
+  },
+  {
+    "osmId": "way/93202258",
+    "name": "Ma'in Hot Spring Resort & Spa",
+    "latitude": 31.6082393,
+    "longitude": 35.6072584,
+    "address": null
+  },
+  {
+    "osmId": "way/179095757",
+    "name": "Belle Vue Hotel",
+    "latitude": 31.9510641,
+    "longitude": 35.9160913,
+    "address": "شارع الكلية العلمية الإسلامية, 41"
+  },
+  {
+    "osmId": "way/198920924",
+    "name": "Best Western Grand Hotel",
+    "latitude": 31.7248249,
+    "longitude": 35.7954414,
+    "address": null
+  },
+  {
+    "osmId": "way/200129431",
+    "name": "Four Seasons Hotel Amman",
+    "latitude": 31.9617,
+    "longitude": 35.8809836,
+    "address": "Amman"
+  },
+  {
+    "osmId": "way/200129432",
+    "name": "Sheraton Al Nabil",
+    "latitude": 31.9603261,
+    "longitude": 35.880001,
+    "address": null
+  },
+  {
+    "osmId": "way/200162154",
+    "name": "Crowne Plaza Amman",
+    "latitude": 31.9622351,
+    "longitude": 35.87013,
+    "address": null
+  },
+  {
+    "osmId": "way/200945992",
+    "name": "Grand Hyatt Amman",
+    "latitude": 31.9558349,
+    "longitude": 35.9096878,
+    "address": "Hussein Bin Ali St, Amman"
+  },
+  {
+    "osmId": "way/234088377",
+    "name": "Clermont Hotel Suites",
+    "latitude": 31.9659597,
+    "longitude": 35.8803605,
+    "address": null
+  },
+  {
+    "osmId": "way/237096471",
+    "name": "InterContinental Aqaba (Resort Aqaba)",
+    "latitude": 29.5334561,
+    "longitude": 34.9950454,
+    "address": null
+  },
+  {
+    "osmId": "way/237096613",
+    "name": "كمبنسكي Kempinski Hotel Aqaba",
+    "latitude": 29.5320504,
+    "longitude": 34.9972732,
+    "address": "King Hussein Street"
+  },
+  {
+    "osmId": "way/242627234",
+    "name": "Sharah Mountains Hotel",
+    "latitude": 30.3204904,
+    "longitude": 35.4811678,
+    "address": null
+  },
+  {
+    "osmId": "way/242627738",
+    "name": "Cleopetra Hotel",
+    "latitude": 30.3189341,
+    "longitude": 35.4816534,
+    "address": null
+  },
+  {
+    "osmId": "way/242627747",
+    "name": "Tetra Tree Hotel",
+    "latitude": 30.3187105,
+    "longitude": 35.4824074,
+    "address": null
+  },
+  {
+    "osmId": "way/242627749",
+    "name": "Marsa City Hotel",
+    "latitude": 30.3184196,
+    "longitude": 35.4823667,
+    "address": "الطريق الملوكي،, وادي موسى البتراء"
+  },
+  {
+    "osmId": "way/242627750",
+    "name": "Seven Wonders Hotel",
+    "latitude": 30.3184448,
+    "longitude": 35.4819433,
+    "address": null
+  },
+  {
+    "osmId": "way/244072829",
+    "name": "Rocky Mountain Hotel",
+    "latitude": 30.3213953,
+    "longitude": 35.4829946,
+    "address": "Wadi Musa Main Street, Wadi Musa"
+  },
+  {
+    "osmId": "way/244085692",
+    "name": "Al-Anbat Hotel I",
+    "latitude": 30.3262207,
+    "longitude": 35.492378,
+    "address": "King's Highway, 43, Petra"
+  },
+  {
+    "osmId": "way/246349385",
+    "name": "Toledo Amman Hotel",
+    "latitude": 31.9607921,
+    "longitude": 35.9175372,
+    "address": "Al Razi Street, 37"
+  },
+  {
+    "osmId": "way/274356645",
+    "name": "Sofia Suites Hotel",
+    "latitude": 32.0158143,
+    "longitude": 35.8663327,
+    "address": "4"
+  },
+  {
+    "osmId": "way/277164235",
+    "name": "Bristol Hotel",
+    "latitude": 31.9588054,
+    "longitude": 35.8763533,
+    "address": null
+  },
+  {
+    "osmId": "way/277242948",
+    "name": "St. Regis",
+    "latitude": 31.9576797,
+    "longitude": 35.8778214,
+    "address": "شارع شفيق الحايك"
+  },
+  {
+    "osmId": "way/292345982",
+    "name": "Al Sufara Hotel Suites",
+    "latitude": 31.9608356,
+    "longitude": 35.9156912,
+    "address": null
+  },
+  {
+    "osmId": "way/303608606",
+    "name": "Grand View Hotel",
+    "latitude": 30.3061545,
+    "longitude": 35.4633857,
+    "address": null
+  },
+  {
+    "osmId": "way/303608675",
+    "name": "Petra Panorama Hotel",
+    "latitude": 30.2914459,
+    "longitude": 35.4576578,
+    "address": null
+  },
+  {
+    "osmId": "way/303608683",
+    "name": "Marriott Petra Hotel",
+    "latitude": 30.3045836,
+    "longitude": 35.4635841,
+    "address": null
+  },
+  {
+    "osmId": "way/303936539",
+    "name": "Mövenpick Nabatean Castle Hotel",
+    "latitude": 30.288498,
+    "longitude": 35.4565191,
+    "address": "Kings Highway, Queen Rania Street, P.O. Box 184, Petra"
+  },
+  {
+    "osmId": "way/320578768",
+    "name": "Holiday Inn Resort Dead Sea",
+    "latitude": 31.7507881,
+    "longitude": 35.5894536,
+    "address": null
+  },
+  {
+    "osmId": "way/330741818",
+    "name": "Mövenpick Resort Petra",
+    "latitude": 30.3254303,
+    "longitude": 35.4692919,
+    "address": "Wadi Musa"
+  },
+  {
+    "osmId": "way/330741819",
+    "name": "La Maison",
+    "latitude": 30.326006,
+    "longitude": 35.4702095,
+    "address": "Wadi Musa"
+  },
+  {
+    "osmId": "way/330878983",
+    "name": "Petra Gate Hotel",
+    "latitude": 30.3204912,
+    "longitude": 35.4807654,
+    "address": null
+  },
+  {
+    "osmId": "way/330878989",
+    "name": "Al-Rashid Hotel",
+    "latitude": 30.3218493,
+    "longitude": 35.4800161,
+    "address": null
+  },
+  {
+    "osmId": "way/330878990",
+    "name": "Qaser Albent Hotel",
+    "latitude": 30.3221503,
+    "longitude": 35.480002,
+    "address": null
+  },
+  {
+    "osmId": "way/330878999",
+    "name": "Elgee Hotel",
+    "latitude": 30.3219813,
+    "longitude": 35.4795407,
+    "address": null
+  },
+  {
+    "osmId": "way/331749243",
+    "name": "Petra Moon Hotel",
+    "latitude": 30.3262444,
+    "longitude": 35.4690495,
+    "address": null
+  },
+  {
+    "osmId": "way/331749259",
+    "name": "Edom Hotel",
+    "latitude": 30.3258671,
+    "longitude": 35.4708088,
+    "address": "Wadi Musa"
+  },
+  {
+    "osmId": "way/331749260",
+    "name": "Edom Hotel",
+    "latitude": 30.3257252,
+    "longitude": 35.47047,
+    "address": "Wadi Musa"
+  },
+  {
+    "osmId": "way/331766003",
+    "name": "Al-Anbat II",
+    "latitude": 30.3211764,
+    "longitude": 35.4793617,
+    "address": null
+  },
+  {
+    "osmId": "way/331766005",
+    "name": "Town Season Hotel",
+    "latitude": 30.3213405,
+    "longitude": 35.4794786,
+    "address": null
+  },
+  {
+    "osmId": "way/331767311",
+    "name": "Valentine Inn",
+    "latitude": 30.3225713,
+    "longitude": 35.4806649,
+    "address": null
+  },
+  {
+    "osmId": "way/333891250",
+    "name": "Caravan Hotel",
+    "latitude": 31.9601946,
+    "longitude": 35.9126905,
+    "address": null
+  },
+  {
+    "osmId": "way/374295414",
+    "name": "Rotana Tower",
+    "latitude": 31.9650218,
+    "longitude": 35.9029978,
+    "address": null
+  },
+  {
+    "osmId": "way/380303854",
+    "name": "Dead Sea Spa Hotel",
+    "latitude": 31.7139805,
+    "longitude": 35.5866667,
+    "address": null
+  },
+  {
+    "osmId": "way/381743916",
+    "name": "InterContinental",
+    "latitude": 31.9536605,
+    "longitude": 35.9137733,
+    "address": "شارع الكلية العلمية الإسلامية, عمان"
+  },
+  {
+    "osmId": "way/381743927",
+    "name": "لو رويال",
+    "latitude": 31.9532496,
+    "longitude": 35.9087706,
+    "address": "شارع المتنبي, 8"
+  },
+  {
+    "osmId": "way/384899016",
+    "name": "Kempinski Hotel Ishtar Dead Sea",
+    "latitude": 31.7151484,
+    "longitude": 35.5859504,
+    "address": null
+  },
+  {
+    "osmId": "way/387434399",
+    "name": "The Signature Hotel",
+    "latitude": 31.95604,
+    "longitude": 35.9304245,
+    "address": null
+  },
+  {
+    "osmId": "way/392646007",
+    "name": "Queen Ayola Hotel",
+    "latitude": 31.7166744,
+    "longitude": 35.793689,
+    "address": "شارع الملك طلال"
+  },
+  {
+    "osmId": "way/393769714",
+    "name": "Salome Hotel",
+    "latitude": 31.7239,
+    "longitude": 35.7949978,
+    "address": "Aisha Um Al Mu'mineen Street"
+  },
+  {
+    "osmId": "way/394586526",
+    "name": "Cairwan Hotel",
+    "latitude": 31.180007,
+    "longitude": 35.7096613,
+    "address": null
+  },
+  {
+    "osmId": "way/407475162",
+    "name": "Days Inn Hotel",
+    "latitude": 31.9764949,
+    "longitude": 35.8870036,
+    "address": "شارع عمر بن عبد العزيز, 5, Amman"
+  },
+  {
+    "osmId": "way/416554318",
+    "name": "فندق مطار عمان",
+    "latitude": 31.7196655,
+    "longitude": 35.9650903,
+    "address": null
+  },
+  {
+    "osmId": "way/420027981",
+    "name": "Sadeen Hotel",
+    "latitude": 31.9967,
+    "longitude": 35.8512585,
+    "address": "شارع وصفي التل"
+  },
+  {
+    "osmId": "way/420030507",
+    "name": "Retaj Hotel",
+    "latitude": 31.9612932,
+    "longitude": 35.8774305,
+    "address": "شارع زهران, 180"
+  },
+  {
+    "osmId": "way/464561724",
+    "name": "Grand Swiss-Belresort Beach Tala Bay",
+    "latitude": 29.4131311,
+    "longitude": 34.9783018,
+    "address": null
+  },
+  {
+    "osmId": "way/488831311",
+    "name": "Orient Gate Hotel",
+    "latitude": 30.3205779,
+    "longitude": 35.4787508,
+    "address": null
+  },
+  {
+    "osmId": "way/488831322",
+    "name": "Petra Sofsaf",
+    "latitude": 30.3219089,
+    "longitude": 35.4775727,
+    "address": null
+  },
+  {
+    "osmId": "way/509602521",
+    "name": "Zidian Hotel",
+    "latitude": 31.9499777,
+    "longitude": 35.916678,
+    "address": "شارع البحتري, 69"
+  },
+  {
+    "osmId": "way/543008878",
+    "name": "Antika Hotel",
+    "latitude": 31.95102,
+    "longitude": 35.9226151,
+    "address": "شارع الكلية العلمية الإسلامية, 2"
+  },
+  {
+    "osmId": "way/546640592",
+    "name": "فندق إمبريال بالاس",
+    "latitude": 31.9568846,
+    "longitude": 35.8937068,
+    "address": "شارع زهران, 84, عمان"
+  },
+  {
+    "osmId": "way/546645511",
+    "name": "Abjar Hotel",
+    "latitude": 31.963983,
+    "longitude": 35.9165249,
+    "address": "Al-Razi Street, 50"
+  },
+  {
+    "osmId": "way/546889545",
+    "name": "Coral Tower",
+    "latitude": 31.9632998,
+    "longitude": 35.9028114,
+    "address": null
+  },
+  {
+    "osmId": "way/568482121",
+    "name": "International Arab Divers Village",
+    "latitude": 29.4274521,
+    "longitude": 34.9816838,
+    "address": "South beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/580507596",
+    "name": "Le Vendome Hotel",
+    "latitude": 31.9676994,
+    "longitude": 35.9014655,
+    "address": "Issam Al-Ajlouni Street, 24"
+  },
+  {
+    "osmId": "way/583354820",
+    "name": "Ramada Resort by Wyndham Dead Sea",
+    "latitude": 31.7667539,
+    "longitude": 35.5777882,
+    "address": "Sweimeh, Dead Sea"
+  },
+  {
+    "osmId": "way/604006172",
+    "name": "Beity Rose Suites Hotel",
+    "latitude": 31.9775129,
+    "longitude": 35.9026809,
+    "address": "Jaber Bin Hayyan Street, 50"
+  },
+  {
+    "osmId": "way/612832211",
+    "name": "Marriott",
+    "latitude": 31.9735622,
+    "longitude": 35.9066171,
+    "address": "Issam Al-Ajlouni Street"
+  },
+  {
+    "osmId": "way/612832214",
+    "name": "Marriott",
+    "latitude": 31.973567,
+    "longitude": 35.9062339,
+    "address": "Issam Al-Ajlouni Street"
+  },
+  {
+    "osmId": "way/625026079",
+    "name": "Hilton Dead Sea Resort & Spa",
+    "latitude": 31.7223381,
+    "longitude": 35.5883189,
+    "address": null
+  },
+  {
+    "osmId": "way/651691828",
+    "name": "Lilium Hotel",
+    "latitude": 32.0171991,
+    "longitude": 35.8546395,
+    "address": "Rifa'Ah Al Ansari Street, 83, Amman"
+  },
+  {
+    "osmId": "way/651966123",
+    "name": "Monarch Hotel",
+    "latitude": 32.0271816,
+    "longitude": 35.8573193,
+    "address": "شارع ياجوز"
+  },
+  {
+    "osmId": "way/653135248",
+    "name": "الفاروق للشقق الفندقية",
+    "latitude": 32.0108454,
+    "longitude": 35.8691003,
+    "address": null
+  },
+  {
+    "osmId": "way/655455842",
+    "name": "Darna Divers Village",
+    "latitude": 29.4252819,
+    "longitude": 34.9749389,
+    "address": "South Beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/656774592",
+    "name": "Dana Plaza Hotel",
+    "latitude": 31.960213,
+    "longitude": 35.8719648,
+    "address": "شارع زهران, 223"
+  },
+  {
+    "osmId": "way/659402976",
+    "name": "Gerasa Hotel",
+    "latitude": 32.012829,
+    "longitude": 35.8695158,
+    "address": "شارع الملكة رانيا العبد الله"
+  },
+  {
+    "osmId": "way/665598833",
+    "name": "Almarsa Village Resort",
+    "latitude": 29.4245388,
+    "longitude": 34.9750949,
+    "address": "South Beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/665598838",
+    "name": "Bedouin Moon Village",
+    "latitude": 29.4247329,
+    "longitude": 34.9756255,
+    "address": "South Beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/665598844",
+    "name": "Summer Bay Hotel",
+    "latitude": 29.4262315,
+    "longitude": 34.9788419,
+    "address": "South Beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/665598846",
+    "name": "Aqaba Adventure Divers",
+    "latitude": 29.4267944,
+    "longitude": 34.9807721,
+    "address": "South Beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/665598847",
+    "name": "Southern Star Club",
+    "latitude": 29.4267025,
+    "longitude": 34.9818359,
+    "address": "South Beach Road, 114-115, Aqaba"
+  },
+  {
+    "osmId": "way/665598850",
+    "name": "Red Sea Dive Center",
+    "latitude": 29.4269807,
+    "longitude": 34.9821593,
+    "address": "South Beach Road, Aqaba"
+  },
+  {
+    "osmId": "way/672730062",
+    "name": "The Sanrock Hotel",
+    "latitude": 31.9639683,
+    "longitude": 35.8683649,
+    "address": "Hikmat Al Masri Street"
+  },
+  {
+    "osmId": "way/672839356",
+    "name": "Jad Hotel Suites",
+    "latitude": 31.9606615,
+    "longitude": 35.8663867,
+    "address": "Amrah Street, 31"
+  },
+  {
+    "osmId": "way/684264399",
+    "name": "Lamerada Hotel",
+    "latitude": 32.0280166,
+    "longitude": 35.877795,
+    "address": "Ahmad Al-Tarawneh Street, 85"
+  },
+  {
+    "osmId": "way/684605760",
+    "name": "فندق ريست هيلز",
+    "latitude": 32.0306346,
+    "longitude": 35.87692,
+    "address": "شارع ياجوز, 128"
+  },
+  {
+    "osmId": "way/686936378",
+    "name": "Ayass Hotel",
+    "latitude": 31.9822617,
+    "longitude": 35.8643474,
+    "address": "Al-Madina Al-Munawwara Street"
+  },
+  {
+    "osmId": "way/688433011",
+    "name": "فندق الف ليلة",
+    "latitude": 31.9880771,
+    "longitude": 35.8663533,
+    "address": "Al-Madina Al-Munawwara Street, 191, Amman"
+  },
+  {
+    "osmId": "way/688511247",
+    "name": "Hotel Crystal",
+    "latitude": 31.9735112,
+    "longitude": 35.8847492,
+    "address": "Ukashah Bin Muhsen Street"
+  },
+  {
+    "osmId": "way/688745575",
+    "name": "Seleen Hotel",
+    "latitude": 31.9994037,
+    "longitude": 35.8785122,
+    "address": "Al Sahafah Street"
+  },
+  {
+    "osmId": "way/689168069",
+    "name": "Holiday Center",
+    "latitude": 32.0056078,
+    "longitude": 35.8817212,
+    "address": "شارع بكر البو, 4"
+  },
+  {
+    "osmId": "way/692088949",
+    "name": "Menuer Hotel",
+    "latitude": 31.9956224,
+    "longitude": 35.8847915,
+    "address": "شارع الملكة رانيا العبد الله, 105"
+  },
+  {
+    "osmId": "way/692088955",
+    "name": "Rojina Hotel",
+    "latitude": 32.0004532,
+    "longitude": 35.8770315,
+    "address": "شارع الملكة رانيا العبد الله"
+  },
+  {
+    "osmId": "way/699970261",
+    "name": "Petra Canyon Hotel",
+    "latitude": 30.3105292,
+    "longitude": 35.4852632,
+    "address": "وادي موسى"
+  },
+  {
+    "osmId": "way/751365442",
+    "name": "City Tower Hotel Akaba",
+    "latitude": 29.5202927,
+    "longitude": 35.0034803,
+    "address": null
+  },
+  {
+    "osmId": "way/758517914",
+    "name": "Petra Rainbow Home",
+    "latitude": 30.3235718,
+    "longitude": 35.4786933,
+    "address": null
+  },
+  {
+    "osmId": "way/775210898",
+    "name": "Maswada Plaza Hotel",
+    "latitude": 29.5312599,
+    "longitude": 35.0064976,
+    "address": null
+  },
+  {
+    "osmId": "way/816833009",
+    "name": "جرش",
+    "latitude": 32.2722036,
+    "longitude": 35.8918879,
+    "address": "Jerash Main Road"
+  },
+  {
+    "osmId": "way/909380543",
+    "name": "W Amman",
+    "latitude": 31.9640613,
+    "longitude": 35.9025688,
+    "address": null
+  },
+  {
+    "osmId": "way/982190111",
+    "name": "DoubleTree by Hilton Amman Hotel & Residences",
+    "latitude": 31.9457175,
+    "longitude": 35.887109,
+    "address": "Pr. Ali St., Amman"
+  },
+  {
+    "osmId": "way/1065331395",
+    "name": "Amman International",
+    "latitude": 32.0105328,
+    "longitude": 35.8677234,
+    "address": null
+  },
+  {
+    "osmId": "way/1068004758",
+    "name": "Grand East Resort & Spa - Dead Sea",
+    "latitude": 31.7457571,
+    "longitude": 35.5931215,
+    "address": null
+  },
+  {
+    "osmId": "way/1071752334",
+    "name": "Mövenpick Tala Bay",
+    "latitude": 29.4054005,
+    "longitude": 34.9780052,
+    "address": null
+  },
+  {
+    "osmId": "way/1225740619",
+    "name": "hotel",
+    "latitude": 31.9794933,
+    "longitude": 35.8981071,
+    "address": null
+  }
+]
