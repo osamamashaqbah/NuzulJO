@@ -11,8 +11,6 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^9.6.1",
     "@tailwindcss/postcss": "^4.3.3",
     "autoprefixer": "^10.5.4",
     "axios": "^1.18.1",
@@ -24,8 +22,7 @@
     "react-dom": "^19.2.7",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.18.1",
-    "tailwindcss": "^4.3.3",
-    "three": "^0.185.1"
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.0",

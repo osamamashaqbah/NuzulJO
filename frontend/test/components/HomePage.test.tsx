@@ -10,8 +10,7 @@ vi.mock("../../src/api/client", async () => {
   return { ...actual, api: { get: vi.fn() } };
 });
 
-// Hero3D pulls in three.js/@react-three which jsdom can't render (no WebGL) — irrelevant to
-// search behavior, so stub it out for this test.
+// The hero photo carousel is irrelevant to search behavior, so stub it out for this test.
 vi.mock("../../src/components/Hero3D", () => ({ Hero3D: () => <div /> }));
 
 describe("HomePage search", () => {
